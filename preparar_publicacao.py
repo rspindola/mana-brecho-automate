@@ -4,12 +4,14 @@ Etapa 1: Prepara os posts baixados do Instagram para publicação na Nuvemshop.
 
 Lê cada pasta em `downloads/` (gerada pelos scripts baixar_instagram.py /
 baixar_por_url.py), extrai da legenda.txt:
-    - título do produto
-    - tamanho
-    - valor
-    - código da dona do item (entre parênteses após o valor)
-Gera uma descrição curta e chamativa (até 300 caracteres), e lista as
-imagens na ordem em que foram baixadas (ordem original do post).
+  - título do produto
+  - tamanho
+  - valor
+  - código da dona do item (entre parênteses após o valor)
+
+Gera uma descrição do produto (com IA, olhando as fotos, ou por template se
+não houver chave de API), e lista as imagens na ordem em que foram baixadas
+(ordem original do post).
 
 Tudo isso vira uma planilha `publicacoes.csv`, que você deve REVISAR antes
 de publicar. Corrija título/tamanho/valor/descrição onde precisar e marque
@@ -19,13 +21,13 @@ Uso:
     python preparar_publicacao.py
     python preparar_publicacao.py --origem downloads --saida publicacoes.csv
 
-Opcional: se a variável de ambiente ANTHROPIC_API_KEY estiver definida,
-o script usa a API da Anthropic (Claude) para gerar uma descrição mais
-elaborada. Caso contrário, usa um gerador de descrição baseado em modelo
-(template), que também funciona bem.
+Se a variável de ambiente ANTHROPIC_API_KEY estiver definida, o script usa
+a API da Anthropic (Claude) para gerar uma descrição sob medida, enxergando
+as fotos da peça. Caso contrário, usa um gerador baseado em modelo (template).
 """
 
 import argparse
+import base64
 import csv
 import os
 import re
@@ -35,6 +37,60 @@ try:
     import requests
 except ImportError:
     requests = None
+
+
+# ============================================================
+# CONFIGURAÇÃO DA IA DE DESCRIÇÃO  (edite aqui)
+# ============================================================
+
+MODELO_IA = "claude-sonnet-5-5"
+
+# Quantas fotos de cada post enviar para a IA olhar (3 costuma bastar).
+MAX_FOTOS_IA = 3
+
+# Cole aqui 3 ou 4 descrições que você achou ótimas (por exemplo, geradas
+# pela IA da Nuvemshop). Isso é o que mais aproxima o resultado do seu estilo.
+# Exemplo de formato:
+#   EXEMPLOS_DESCRICOES = [
+#       "Vestido midi de malha canelada na cor verde-musgo, com decote ...",
+#       "Blusa de seda estampada em tons de azul, manga bufante ...",
+#   ]
+EXEMPLOS_DESCRICOES: list[str] = []
+
+SYSTEM_PROMPT_BASE = """Você é redatora de moda feminina e divulgação de produtos \
+para o Maná Brechó, uma loja online de roupas femininas de segunda mão.
+
+TOM DE VOZ: acolhedor, próximo e elegante, como uma amiga que entende de moda \
+indicando uma peça. [AJUSTE AQUI O TOM REAL DA LOJA]
+
+O QUE FAZER:
+- Descreva o que você VÊ nas fotos: cor, estampa, modelagem, decote, manga, \
+comprimento, caimento, detalhes (botões, bordados, cós, forro).
+- Sugira 1 ou 2 ocasiões de uso ou como combinar a peça.
+- Mencione o tamanho se for informado.
+- Lembre, sem exagero, que é peça única de brechó.
+- Estrutura: gancho de 1 frase, depois detalhes e modelagem, depois uso/combinação.
+
+O QUE NUNCA FAZER:
+- Nunca invente composição do tecido, marca, medidas ou estado de conservação \
+("ótimo estado", "nunca usada") se isso não estiver na legenda.
+- Nunca cite preço, código ou nome da dona da peça.
+- Evite clichês: "versátil", "elegante", "must-have", "arrasar", "imperdível".
+- Se a foto não permitir ver um detalhe, não fale dele.
+
+FORMATO: texto corrido em português do Brasil, entre 250 e 450 caracteres, \
+no máximo 2 emojis, sem aspas, sem título. Responda APENAS com a descrição."""
+
+
+def montar_system_prompt() -> str:
+    prompt = SYSTEM_PROMPT_BASE
+    if EXEMPLOS_DESCRICOES:
+        exemplos = "\n\n".join(f"- {e}" for e in EXEMPLOS_DESCRICOES)
+        prompt += "\n\nEXEMPLOS DE DESCRIÇÕES QUE EU GOSTEI (imite o estilo, não copie):\n" + exemplos
+    return prompt
+
+
+MEDIA_TYPES = {".jpg": "image/jpeg", ".jpeg": "image/jpeg", ".png": "image/png", ".webp": "image/webp"}
 
 
 # Cadastro de clientes (código -> nome completo)
@@ -79,7 +135,7 @@ CLIENTES = {
     "MV": "Milena Vieira",
     "SCF": "Simone Coelho Fernandes",
     "FRM": "Fernanda Raphael Malta",
-    "LR": "Lenise RIcha"
+    "LR": "Lenise RIcha",
 }
 
 STOPWORDS_TITULO = {"de", "da", "do", "das", "dos", "e", "em", "com", "para", "por", "a", "o"}
@@ -132,8 +188,8 @@ def parse_legenda(texto: str) -> dict:
     flat = re.sub(r"\s+", " ", flat)
 
     # --- 0. Detecta post com MAIS DE UM item na mesma legenda. Nesse caso,
-    #     não tenta adivinhar nada (arriscaria misturar dados dos dois
-    #     itens) — deixa tudo em branco e sinaliza para revisão manual.
+    #        não tenta adivinhar nada (arriscaria misturar dados dos dois
+    #        itens) — deixa tudo em branco e sinaliza para revisão manual.
     if len(re.findall(r"\bvalor\b", flat, re.IGNORECASE)) >= 2:
         return {
             "titulo": "",
@@ -148,8 +204,8 @@ def parse_legenda(texto: str) -> dict:
     NUM = r"([\d][\d.,]*)"  # número com pontuação livre (ex: 1000, 2.000, 70,00)
 
     # --- 1. Código da dona: qualquer parêntese cujo conteúdo bate com um
-    #     código conhecido em CLIENTES. Se houver mais de um, fica o último
-    #     (geralmente o mais próximo do valor, o mais confiável).
+    #        código conhecido em CLIENTES. Se houver mais de um, fica o último
+    #        (geralmente o mais próximo do valor, o mais confiável).
     codigo = ""
     for m in re.finditer(r"\(([^)]+)\)", flat):
         chave = m.group(1).strip().upper()
@@ -158,8 +214,8 @@ def parse_legenda(texto: str) -> dict:
             spans_remover.append(m.span())
 
     # --- 2. Valor: se achamos um código, primeiro tenta achar um preço
-    #     "colado" logo antes do parêntese do código (padrão mais comum:
-    #     "... 100 (EM)", "... 2.000 (EM)", "... 490 reais (Mana)").
+    #        "colado" logo antes do parêntese do código (padrão mais comum:
+    #        "... 100 (EM)", "... 2.000 (EM)", "... 490 reais (Mana)").
     valor = None
     if codigo:
         paren_start = max(s for s, e in spans_remover)
@@ -191,7 +247,7 @@ def parse_legenda(texto: str) -> dict:
             spans_remover.append(m.span())
 
     # --- 3. Tamanho: tenta padrões com palavra-chave primeiro, depois
-    #     tokens avulsos (letra de tamanho ou número de calçado/roupa).
+    #        tokens avulsos (letra de tamanho ou número de calçado/roupa).
     tamanho = ""
     for padrao in [
         r"\btamanho\s+(\S+?)\b(?:\s*\(([^)]+)\))?",
@@ -245,10 +301,49 @@ def gerar_descricao_template(titulo: str, tamanho: str) -> str:
     return desc[:300]
 
 
-def gerar_descricao_ia(titulo: str, tamanho: str, legenda_raw: str, api_key: str) -> str | None:
+def gerar_descricao_ia(
+    titulo: str,
+    tamanho: str,
+    legenda_raw: str,
+    api_key: str,
+    post_folder: Path,
+    imagens: list[str],
+) -> str | None:
+    """Gera a descrição com Claude, enviando as primeiras fotos do post."""
     if requests is None:
         return None
     try:
+        content = []
+
+        # Fotos da peça (as primeiras MAX_FOTOS_IA do post)
+        for nome in imagens[:MAX_FOTOS_IA]:
+            caminho = post_folder / nome
+            media_type = MEDIA_TYPES.get(caminho.suffix.lower())
+            if not media_type:
+                continue
+            content.append(
+                {
+                    "type": "image",
+                    "source": {
+                        "type": "base64",
+                        "media_type": media_type,
+                        "data": base64.b64encode(caminho.read_bytes()).decode(),
+                    },
+                }
+            )
+
+        content.append(
+            {
+                "type": "text",
+                "text": (
+                    f"Título: {titulo}\n"
+                    f"Tamanho: {tamanho or 'não informado'}\n"
+                    f"Legenda original do Instagram: {legenda_raw}\n\n"
+                    "Escreva a descrição do produto."
+                ),
+            }
+        )
+
         resp = requests.post(
             "https://api.anthropic.com/v1/messages",
             headers={
@@ -257,32 +352,20 @@ def gerar_descricao_ia(titulo: str, tamanho: str, legenda_raw: str, api_key: str
                 "content-type": "application/json",
             },
             json={
-                "model": "claude-sonnet-5",
-                "max_tokens": 200,
-                "messages": [
-                    {
-                        "role": "user",
-                        "content": (
-                            "Escreva uma descrição de produto para um brechó online, "
-                            "em português do Brasil, chamativa e vendedora, com no "
-                            "máximo 300 caracteres (conte os caracteres). "
-                            f"Item: {titulo}. Tamanho: {tamanho or 'não informado'}. "
-                            f"Legenda original do Instagram: {legenda_raw}. "
-                            "Responda APENAS com o texto da descrição, sem aspas, "
-                            "sem explicações."
-                        ),
-                    }
-                ],
+                "model": MODELO_IA,
+                "max_tokens": 600,
+                "system": montar_system_prompt(),
+                "messages": [{"role": "user", "content": content}],
             },
-            timeout=30,
+            timeout=60,
         )
         resp.raise_for_status()
         data = resp.json()
         texto = "".join(b.get("text", "") for b in data.get("content", []) if b.get("type") == "text")
         texto = texto.strip()
-        return texto[:300] if texto else None
+        return texto or None
     except Exception as e:
-        print(f"    (aviso: geração de descrição via IA falhou, usando template. Detalhe: {e})")
+        print(f"  (aviso: geração de descrição via IA falhou, usando template. Detalhe: {e})")
         return None
 
 
@@ -312,6 +395,7 @@ def main():
         print("ANTHROPIC_API_KEY não definida: descrições serão geradas por template (sem IA).")
 
     linhas_saida = []
+
     for post_folder in sorted(origem.iterdir()):
         if not post_folder.is_dir():
             continue
@@ -328,12 +412,20 @@ def main():
         nome_dona = CLIENTES.get(codigo, "")
         if codigo and not nome_dona:
             print(f"  aviso: código de dona '{codigo}' em {post_folder.name} não está no cadastro CLIENTES.")
+
         if item["aviso"]:
             print(f"  ATENÇÃO em {post_folder.name}: {item['aviso']}")
 
         descricao = None
         if api_key:
-            descricao = gerar_descricao_ia(item["titulo"], item["tamanho"], item["legenda_raw"], api_key)
+            descricao = gerar_descricao_ia(
+                item["titulo"],
+                item["tamanho"],
+                item["legenda_raw"],
+                api_key,
+                post_folder,
+                imagens,
+            )
         if not descricao:
             descricao = gerar_descricao_template(item["titulo"], item["tamanho"])
 
