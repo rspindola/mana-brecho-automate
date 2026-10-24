@@ -1,7 +1,5 @@
-.DS_Store
-.env
-/node_modules/
-
-# React Router
-/.react-router/
-/build/
+downloads/*
+urls.txt
+resultados_publicacao.csv
+publicacoes.csv
+produtos_sem_variacao.csv
