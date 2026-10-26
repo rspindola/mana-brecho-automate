@@ -1,5 +1,7 @@
 downloads/*
+
 urls.txt
 resultados_publicacao.csv
 publicacoes.csv
 produtos_sem_variacao.csv
+.env
