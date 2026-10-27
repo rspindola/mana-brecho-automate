@@ -1,0 +1,25 @@
+categoria,peso_kg,largura_cm,altura_cm,profundidade_cm,amostra,observacao
+Acessórios,0.25,25.0,20.0,5.0,4,amostra pequena: confira
+Acessórios > Bolsas,0.5,30.0,20.0,10.0,36,
+Acessórios > Relógio,0.17,9.0,5.5,9.0,2,amostra pequena: confira
+Acessórios > Óculos,0.15,17.0,5.25,6.0,8,
+Calçados,0.7,20.0,12.0,30.0,40,
+Calçados > Sandálias,0.8,20.0,10.0,30.0,13,
+Calçados > Tênis,0.9,20.0,12.0,30.0,5,
+Roupas,0.5,25.0,30.0,3.0,3,amostra pequena: confira
+Roupas > Blazers,0.55,30.0,40.0,3.0,10,
+Roupas > Blusas,0.25,25.0,30.0,2.0,86,
+Roupas > Calças,0.4,25.0,30.0,2.0,79,
+Roupas > Casacos,0.55,25.0,30.0,3.0,28,
+Roupas > Croppeds,0.2,25.0,25.0,2.0,5,
+Roupas > Gym,0.2,20.0,25.0,2.0,28,
+Roupas > Jeans,0.5,25.0,30.0,3.0,6,
+Roupas > Macacào,0.4,25.0,30.0,2.0,12,
+Roupas > Macaquinho,0.3,25.0,30.0,2.0,13,
+Roupas > Moda praia,0.28,20.0,25.0,2.0,26,
+Roupas > Moda praia > Saída de praia,0.3,22.5,27.5,2.0,8,
+Roupas > Saias,0.3,25.0,30.0,2.0,47,
+Roupas > Shorts,0.25,20.0,25.0,2.0,14,
+Roupas > Top,0.15,20.0,25.0,2.0,18,
+Roupas > Vestidos,0.3,25.0,30.0,2.0,94,
+Roupas > Vestidos > Festa,0.35,25.0,30.0,2.5,123,

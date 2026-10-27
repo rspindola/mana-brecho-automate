@@ -42,6 +42,17 @@ try:
 except ImportError:
     requests = None
 
+try:
+    from dimensoes_padrao import buscar_dimensoes, carregar_tabela, usou_categoria_mae
+except ImportError:  # dimensoes_padrao.py ausente: as colunas de medidas ficam em branco
+    carregar_tabela = None
+
+try:
+    from categorias_nuvemshop import carregar_categorias_da_loja, sugerir_categoria
+except ImportError:  # arquivo categorias_nuvemshop.py ausente: segue só com as sugestões internas
+    carregar_categorias_da_loja = None
+    sugerir_categoria = None
+
 
 # ============================================================
 # CONFIGURAÇÃO DA IA DE DESCRIÇÃO  (edite aqui)
@@ -580,6 +591,9 @@ def listar_imagens_ordenadas(post_folder: Path) -> list[str]:
 
 NOME_LOJA = "Maná Brechó"
 
+# Tamanho usado quando a legenda não informa nenhum. Assim toda peça ganha uma variação.
+TAMANHO_PADRAO = "ÚNICO"
+
 # Marcas que o script reconhece no título ou na legenda. Só preenche a marca se
 # ela aparecer escrita; nunca adivinha. Acrescente as marcas que você mais vende.
 MARCAS_CONHECIDAS = [
@@ -675,16 +689,20 @@ def gerar_tags(titulo: str, tamanho: str, marca: str, categoria: str, max_tags: 
     if marca:
         tags.append(marca.lower())
     if categoria:
-        tags.append(categoria.lower())
+        tags.append(categoria.split(">")[-1].strip().lower())
     if tamanho:
         tags.append(f"tamanho {tamanho.lower()}")
     unicas = list(dict.fromkeys(tags))
     return ", ".join(unicas[:max_tags])
 
 
-def gerar_campos_busca(titulo: str, tamanho: str, legenda: str, descricao: str) -> dict:
+def gerar_campos_busca(titulo: str, tamanho: str, legenda: str, descricao: str, categorias_loja=None) -> dict:
     marca = detectar_marca(titulo, legenda)
-    categoria = detectar_categoria(titulo)
+    if categorias_loja:
+        # só sugere categorias que JÁ EXISTEM na loja (nunca inventa nem cria)
+        categoria = sugerir_categoria(titulo, categorias_loja, CATEGORIAS_POR_PALAVRA)
+    else:
+        categoria = detectar_categoria(titulo)  # apenas uma sugestão; o publicar confere com a loja
     return {
         "categoria": categoria,
         "marca": marca,
@@ -701,6 +719,7 @@ def main():
     parser.add_argument("--saida", default="publicacoes.csv", help="Arquivo CSV de saída (padrão: publicacoes.csv)")
     parser.add_argument("--com-fotos", action="store_true", help="Envia também as fotos para a IA (mais fiel à peça, porém bem mais lento)")
     parser.add_argument("--limite", type=int, default=0, help="Processa só os N primeiros posts (útil para testar)")
+    parser.add_argument("--dimensoes", default="dimensoes_padrao.csv", help="Tabela de peso e dimensões padrão por categoria")
     parser.add_argument("--listar-modelos", action="store_true", help="Lista os modelos Gemini disponíveis para a sua chave e sai")
     args = parser.parse_args()
 
@@ -734,6 +753,24 @@ def main():
         print(f"ANTHROPIC_API_KEY encontrada: descrições serão geradas com o Claude ({modo_fotos}).")
     else:
         print("Nenhuma chave de API definida (GEMINI_API_KEY ou ANTHROPIC_API_KEY): descrições por template (sem IA).")
+
+    categorias_loja = None
+    if carregar_categorias_da_loja is not None and requests is not None:
+        try:
+            categorias_loja = carregar_categorias_da_loja()
+        except Exception as e:
+            print(f"aviso: não consegui ler as categorias da Nuvemshop ({e}). Usando só sugestões internas.")
+    if categorias_loja:
+        print(f"{len(categorias_loja)} categorias da sua loja carregadas: a categoria sugerida será sempre uma delas.")
+    else:
+        print("Categorias da loja NÃO carregadas (defina NUVEMSHOP_STORE_ID e NUVEMSHOP_ACCESS_TOKEN para usá-las).")
+        print("A coluna 'categoria' será só uma sugestão; o publicar_nuvemshop.py confere com a loja.")
+
+    tabela_dims = carregar_tabela(args.dimensoes) if carregar_tabela else {}
+    if tabela_dims:
+        print(f"Tabela de medidas padrão carregada: {len(tabela_dims)} categorias ({args.dimensoes}).")
+    else:
+        print(f"Tabela de medidas '{args.dimensoes}' não encontrada: peso e dimensões ficarão em branco.")
 
     pastas = [d for d in sorted(origem.iterdir()) if d.is_dir()]
     if args.limite:
@@ -801,9 +838,25 @@ def main():
             if not codigo and not item["aviso"]:
                 item["aviso"] = "Iniciais da dona NÃO identificadas no título — conferir (ou incluir o código em CLIENTES)"
 
-            extras = gerar_campos_busca(item["titulo"], item["tamanho"], item["legenda_raw"], descricao)
+            # Sem tamanho na legenda: a variação será ÚNICO. A descrição já foi escrita com o tamanho
+            # real (ou sem ele), para não afirmar "tamanho único" sobre uma peça que só não informou o tamanho.
+            tamanho_csv = item["tamanho"] or TAMANHO_PADRAO
+            if not item["tamanho"] and "MÚLTIPLOS ITENS" not in item["aviso"]:
+                item["aviso"] = (item["aviso"] + " | " if item["aviso"] else "") + f"Tamanho não informado — será {TAMANHO_PADRAO}"
+
+            extras = gerar_campos_busca(item["titulo"], tamanho_csv, item["legenda_raw"], descricao, categorias_loja)
             if not extras["categoria"]:
-                item["aviso"] = (item["aviso"] + " | " if item["aviso"] else "") + "Categoria não identificada — preencher"
+                item["aviso"] = (item["aviso"] + " | " if item["aviso"] else "") + "Categoria não identificada — preencher com uma categoria que já exista na loja"
+
+            # Peso e dimensões padrão da categoria (valores editáveis no CSV antes de publicar)
+            dims = {}
+            if tabela_dims:
+                dims, categoria_usada = buscar_dimensoes(extras["categoria"], tabela_dims)
+                dims = dims or {}
+                if not dims:
+                    item["aviso"] = (item["aviso"] + " | " if item["aviso"] else "") + "Sem medidas padrão para a categoria — preencher peso e dimensões"
+                elif usou_categoria_mae(extras["categoria"], categoria_usada):
+                    item["aviso"] = (item["aviso"] + " | " if item["aviso"] else "") + f"Medidas da categoria-mãe '{categoria_usada}' — conferir"
 
             linhas_saida.append(
                 {
@@ -817,7 +870,11 @@ def main():
                     "titulo_seo": extras["titulo_seo"],
                     "descricao_seo": extras["descricao_seo"],
                     "url_produto": extras["url_produto"],
-                    "tamanho": item["tamanho"],
+                    "tamanho": tamanho_csv,
+                    "peso_kg": dims.get("peso_kg") or "",
+                    "largura_cm": dims.get("largura_cm") or "",
+                    "altura_cm": dims.get("altura_cm") or "",
+                    "profundidade_cm": dims.get("profundidade_cm") or "",
                     "valor": item["valor"] if item["valor"] is not None else "",
                     "codigo_dona": codigo,
                     "nome_dona": nome_dona,

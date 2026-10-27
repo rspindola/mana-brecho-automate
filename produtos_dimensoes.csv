@@ -1,0 +1,753 @@
+﻿product_id,variant_id,nome,categoria,todas_categorias,tamanho,sku,peso_kg,largura_cm,altura_cm,profundidade_cm,tem_dimensoes,publicado
+359816473,1572856227,Bolsa de couro,Acessórios > Bolsas,Acessórios | Acessórios > Bolsas,Laranja,,0.7,21.0,16.0,12.0,sim,sim
+359912282,1573111619,Jaqueta de Pelos estampada,Roupas > Casacos,Roupas | Roupas > Casacos,,,0.4,25.0,30.0,3.0,sim,sim
+359994998,1573347150,Saia Vix,Roupas > Saias,Roupas > Saias,P / Branco,,0.3,25.0,35.0,2.0,sim,sim
+359994998,1573350033,Saia Vix,Roupas > Saias,Roupas > Saias,P / Azul,,0.3,25.0,35.0,2.0,sim,sim
+359997258,1573353576,Blusa Animale,Roupas > Blusas,Roupas | Roupas > Blusas,P,,0.3,25.0,30.0,2.0,sim,sim
+360157551,1574010803,Calça Vix,Roupas > Calças,Roupas > Calças,P,,0.3,25.0,30.0,2.0,sim,sim
+360161628,1587550888,Vestido / Saída de Praia água de Coco,Roupas > Moda praia > Saída de praia,Roupas | Roupas > Moda praia | Roupas > Moda praia > Saída de praia | Roupas > Vestidos,P,,0.3,25.0,35.0,2.5,sim,sim
+360166339,1583070988,Vestido Tisset,Roupas > Vestidos,Roupas | Roupas > Vestidos,P,,0.35,25.0,30.0,2.0,sim,sim
+360168363,1574056233,Vestido Vix,Roupas > Vestidos,Roupas > Vestidos,M,,0.3,25.0,35.0,2.0,sim,sim
+360170107,1587461631,Top Bobo,Roupas > Top,Roupas | Roupas > Top,P,,0.25,20.0,25.0,2.0,sim,sim
+360171649,1574065288,Calça de Alfaiataria Zara,Roupas > Calças,Roupas | Roupas > Calças,40,,0.5,25.0,35.0,3.0,sim,sim
+360173427,1574069683,Vestido Longo Farm,Roupas > Vestidos,Roupas > Vestidos,M,,0.3,25.0,35.0,3.5,sim,sim
+360178446,1583205289,Vestido Adriana Degreas,Roupas > Vestidos,Roupas | Roupas > Vestidos,M,,0.4,25.0,30.0,2.0,sim,sim
+360191274,1574124607,Macacão Vix,Roupas > Macacào,Roupas | Roupas > Macacào,38,,0.4,25.0,35.0,2.5,sim,sim
+360192078,1574127492,Vestido Cia. Marítima Midi Multicolor,Roupas > Vestidos,Roupas | Roupas > Vestidos,M,MANA2,0.3,25.0,30.0,3.0,sim,sim
+360199975,1574153236,Vestido Farm,Roupas > Vestidos,Roupas > Vestidos,M,MANA2,0.15,20.0,30.0,2.0,sim,sim
+360200829,1574155193,Top Eva,Roupas > Gym,Roupas | Roupas > Gym | Roupas > Top,P,,0.15,20.0,15.0,2.0,sim,sim
+360201634,1574157833,Calça Le Lis Blanc jeans branca,Roupas > Calças,Roupas | Roupas > Calças | Roupas > Jeans,38,MANA5,0.5,25.0,35.0,3.0,sim,sim
+360202913,1574162542,Top Nk Store,Roupas > Top,Roupas | Roupas > Top,M,MANA6,0.2,20.0,25.0,2.0,sim,sim
+360203490,1574164311,Calça NK Store,Roupas > Calças,Roupas | Roupas > Calças,38,MANA6,0.5,25.0,30.0,3.0,sim,sim
+360209137,1574184345,Top NV,Roupas > Top,Roupas | Roupas > Top,P,,0.15,20.0,25.0,2.0,sim,sim
+360210551,1574188808,Calça Transpassada Rosa Chá,Roupas > Calças,Roupas | Roupas > Calças,38,MANA,0.4,25.0,35.0,3.0,sim,sim
+360212913,1574194442,Top tricot NV,Roupas > Top,Roupas | Roupas > Top,,MANA,0.2,20.0,25.0,2.0,sim,sim
+360214366,1574199406,Saia Vix,Roupas > Saias,Roupas > Saias,P,MANA,0.25,20.0,25.0,2.0,sim,sim
+360215804,1574203790,Sandália Arezzo,Calçados,Calçados,38,MANA,0.5,12.0,10.0,28.0,sim,sim
+360216293,1574205273,Sandália Luiza Barcelos,Calçados,Calçados,38,MANA,0.5,15.0,10.0,30.0,sim,sim
+360217211,1574208479,Calça Vix,Roupas > Calças,Roupas > Calças,38,MANA,0.35,25.0,35.0,2.0,sim,sim
+360219697,1574216877,Calça Preta de Sarja Zara,Roupas > Calças,Roupas > Calças,40,MANA,0.4,25.0,30.0,3.0,sim,sim
+360220820,1574223984,Vestido Preto Aquamar,Roupas > Vestidos,Roupas > Vestidos,M,MANA,0.35,25.0,30.0,3.0,sim,sim
+360221569,1583172264,Vestido PatBo,Roupas > Vestidos,Roupas > Vestidos,P,MANA,0.5,25.0,35.0,3.0,sim,sim
+360222682,1574233266,Camisa de Camurça,Roupas > Blusas,Roupas | Roupas > Blusas,M,MANA,0.5,30.0,25.0,3.0,sim,sim
+360225497,1574245142,Saia de lã Juliana Jabour,Roupas > Saias,Roupas | Roupas > Saias,40,MANA,0.25,20.0,25.0,2.0,sim,sim
+360228116,1621411979,Óculos de Sol Gustavo Eyewear,Acessórios > Óculos,Acessórios | Acessórios > Óculos,Único,MANA,0.15,17.0,7.0,6.0,sim,sim
+360228839,1621412062,Óculos de sol Tiffany & Co.,Acessórios > Óculos,Acessórios | Acessórios > Óculos,Único,MANA,0.15,18.0,6.0,7.0,sim,sim
+360231806,1621412137,Óculos de sol Dolce & Gabbana,Acessórios > Óculos,Acessórios | Acessórios > Óculos,Único,MANA,0.2,16.0,5.5,6.0,sim,sim
+360233281,1621412166,Óculos de Sol Tom Ford Quinn TF790,Acessórios > Óculos,Acessórios | Acessórios > Óculos,Único,MANA,0.2,16.0,5.0,6.0,sim,sim
+360234889,1621412209,Óculos de Sol Feminino Miu Miu,Acessórios > Óculos,Acessórios | Acessórios > Óculos,Único,MANA,0.15,16.0,5.0,6.0,sim,sim
+360236097,1621412239,Óculos de Sol PatBO x AC Brazil,Acessórios > Óculos,Acessórios | Acessórios > Óculos,Único,MANA,0.15,17.0,5.0,4.0,sim,sim
+360237791,1574279408,Sapato de salto Arezzo,Calçados,Calçados,38,MANA,0.7,20.0,10.0,30.0,sim,sim
+360239561,1621412294,Bolsa de mão Capodarte couro rosa,Acessórios > Bolsas,Acessórios | Acessórios > Bolsas,Único,MANA,0.7,35.0,25.0,10.0,sim,sim
+360241490,1574288641,Saia Pathisa jeans,Roupas > Saias,Roupas | Roupas > Saias | Roupas > Jeans,P,,0.6,30.0,25.0,2.5,sim,sim
+360242086,1574290046,Cropped Adriana Dregueas,Roupas > Top,Roupas | Roupas > Top | Roupas > Croppeds | Roupas > Blusas,P,,0.15,20.0,25.0,2.0,sim,sim
+360242986,1574292538,Calça linho branca,Roupas > Calças,Roupas | Roupas > Calças,M,FG1,0.4,25.0,30.0,2.0,sim,sim
+360243874,1574684408,Calça Vix,Roupas > Calças,Roupas > Calças,P,FG2,0.35,25.0,30.0,2.0,sim,sim
+360362329,1621412408,Capa IPad Couro,Acessórios,Acessórios,Único,,0.3,25.0,30.0,2.0,sim,sim
+360364137,1574701020,Tênis Gucci,Calçados,Calçados,38,,1.2,22.0,12.0,34.0,sim,sim
+360364652,1574716708,Vestido Festa Animale,Roupas > Vestidos > Festa,Roupas > Vestidos | Roupas > Vestidos > Festa,36,,0.4,25.0,35.0,3.0,sim,sim
+360366815,1574716551,Vestido Festa Agilita,Roupas > Vestidos > Festa,Roupas | Roupas > Vestidos | Roupas > Vestidos > Festa,38,,0.4,25.0,35.0,2.0,sim,sim
+360367394,1574716176,Vestido Animale,Roupas > Vestidos,Roupas | Roupas > Vestidos,36,,0.3,25.0,30.0,2.0,sim,sim
+360368008,1574715807,Vestido Animale,Roupas > Vestidos,Roupas | Roupas > Vestidos,38,,0.3,25.0,35.0,2.0,sim,sim
+360368797,1574718242,Vestido Festa Armani,Roupas > Vestidos > Festa,Roupas > Vestidos | Roupas > Vestidos > Festa,36,,0.5,25.0,35.0,3.0,sim,sim
+360369310,1574719836,Vestido Festa GUCCI,Roupas > Vestidos > Festa,Roupas > Vestidos | Roupas > Vestidos > Festa,38,,0.5,25.0,35.0,3.0,sim,sim
+360370044,1574722612,Vestido Festa Bobo,Roupas > Vestidos > Festa,Roupas > Vestidos | Roupas > Vestidos > Festa,P,,0.3,25.0,30.0,2.0,sim,sim
+360370977,1574726146,Vestido Festa Bobo,Roupas > Vestidos > Festa,Roupas | Roupas > Vestidos | Roupas > Vestidos > Festa,P,,0.35,25.0,35.0,2.0,sim,sim
+360371224,1574727207,Vestido Festa Animale,Roupas > Vestidos > Festa,Roupas | Roupas > Vestidos | Roupas > Vestidos > Festa,P,,0.3,20.0,25.0,2.0,sim,sim
+360371920,1574730146,Vestido Sacada,Roupas > Vestidos,Roupas | Roupas > Vestidos,P,NS1,0.4,25.0,35.0,2.0,sim,sim
+360373131,1574733927,Casaqueto TalieNK,Roupas > Casacos,Roupas | Roupas > Casacos,P,,0.6,30.0,40.0,3.0,sim,sim
+360373719,1577983559,Calça Gym track and field,Roupas > Calças,Roupas | Roupas > Calças | Roupas > Gym,M,,0.3,20.0,25.0,2.5,sim,sim
+360374148,1574737348,Tênis Gucci,Calçados,Calçados,35,,1.2,20.0,12.0,33.0,sim,sim
+360378101,1574748989,Vestido Festa André Lima,Roupas > Vestidos,Roupas > Vestidos,36,,0.4,25.0,30.0,3.0,sim,sim
+360383227,1574765252,Vestido Longo Inffinity,Roupas > Vestidos,Roupas > Vestidos,P,,0.5,25.0,35.0,3.0,sim,sim
+360386182,1574775018,Vestido KL,Roupas > Vestidos,Roupas | Roupas > Vestidos,38,,0.3,25.0,35.0,3.0,sim,sim
+360386979,1577972496,Vestido Cris Barros,Roupas > Vestidos,Roupas | Roupas > Vestidos | Roupas > linho,36,,0.4,25.0,35.0,2.0,sim,sim
+360387688,1574780072,Blazer Zara Linho,Roupas > Blazers,Roupas | Roupas > Blazers,G,,0.5,30.0,40.0,3.0,sim,sim
+360388382,1574783233,Casaco Zara,Roupas > Casacos,Roupas | Roupas > Casacos,G,,1.2,30.0,40.0,5.0,sim,sim
+360389013,1574785386,Cropped Shop 126,Roupas > Croppeds,Roupas | Roupas > Croppeds,M,,0.3,25.0,30.0,2.0,sim,sim
+360413994,1574872584,Macaquinho Farm,Roupas > Macaquinho,Roupas | Roupas > Macaquinho,M,,0.25,20.0,25.0,2.0,sim,sim
+360414476,1574874581,Vestido Festa Animale,Roupas > Vestidos > Festa,Roupas > Vestidos | Roupas > Vestidos > Festa,P,,0.3,20.0,25.0,2.0,sim,sim
+360414983,1574876360,Vestido Festa OhBoy,Roupas > Vestidos > Festa,Roupas > Vestidos | Roupas > Vestidos > Festa,M,,0.3,20.0,25.0,2.5,sim,sim
+360415604,1574878785,Vestido de festa de veludo,Roupas > Vestidos > Festa,Roupas | Roupas > Vestidos | Roupas > Vestidos > Festa,P,,0.7,25.0,35.0,3.0,sim,sim
+360416355,1574881551,Vestido Bobo,Roupas > Vestidos > Festa,Roupas | Roupas > Vestidos | Roupas > Vestidos > Festa,M,,0.3,20.0,25.0,2.0,sim,sim
+360417986,1574887392,Vestido de veludo Osklen,Roupas > Vestidos > Festa,Roupas > Vestidos | Roupas > Vestidos > Festa,P,,0.3,25.0,30.0,2.0,sim,sim
+360418309,1574888320,Vestido Zen,Roupas > Vestidos,Roupas > Vestidos,P,,0.5,25.0,35.0,2.5,sim,sim
+360418682,1574889744,Vestido Ginger,Roupas > Vestidos > Festa,Roupas > Vestidos | Roupas > Vestidos > Festa,M,com fornecedor,0.4,20.0,25.0,2.0,sim,sim
+360419362,1574891556,Sandália Schütz,Calçados,Calçados,38,,0.8,22.0,12.0,32.0,sim,sim
+360421679,1574898445,Vestido Zen,Roupas > Vestidos > Festa,Roupas > Vestidos | Roupas > Vestidos > Festa,P,,0.5,25.0,30.0,3.0,sim,sim
+360422428,1574900581,Vestido Tricot Animale,Roupas > Vestidos > Festa,Roupas > Vestidos | Roupas > Vestidos > Festa,P,,0.3,20.0,30.0,2.0,sim,sim
+360424511,1574908961,Vestido JohnJohn,Roupas > Vestidos,Roupas > Vestidos,P,,0.3,20.0,25.0,2.0,sim,sim
+360424775,1621412462,Óculos de grau Chloe,Acessórios > Óculos,Acessórios | Acessórios > Óculos,Único,,0.15,17.0,6.5,7.0,sim,sim
+360427722,1574925643,Vestido de lã italiano,Roupas > Vestidos,Roupas | Roupas > Vestidos,M,,0.5,25.0,30.0,2.5,sim,sim
+360430966,1574937712,Mocassim Tratorado Arezzo,Calçados,Calçados,38,,1.2,12.0,15.0,34.0,sim,sim
+360431638,1621412532,Bolsa artesanal com detalhes em pérolas,Acessórios > Bolsas,Acessórios | Acessórios > Bolsas,Único,,0.3,25.0,15.0,5.0,sim,sim
+360445129,1574981584,Saída de praia branca Le Lis Blanc,Roupas > Moda praia,Roupas | Roupas > Moda praia,,,0.3,25.0,30.0,2.0,sim,sim
+360448039,1574987936,Saia Fabulous Agilita,Roupas > Saias,Roupas | Roupas > Saias,36,,0.35,25.0,30.0,2.0,sim,sim
+360448833,1587545718,Blusa Renner aveludada,Roupas > Blusas,Roupas > Blusas,P,,0.3,25.0,30.0,2.0,sim,sim
+360449942,1574992253,Macacão crepe Fabulous Agilita,Roupas > Macacào,Roupas | Roupas > Macacào,38,,0.5,25.0,30.0,2.0,sim,sim
+360450836,1587554735,Blusa de tricot com detalhe em cadarço,Roupas > Blusas,Roupas | Roupas > Blusas,ÚNICO,,0.5,25.0,30.0,2.0,sim,sim
+360473499,1575064133,Casaco ombro a ombro Victoria Secret,Roupas > Casacos,Roupas | Roupas > Casacos,M,,0.4,25.0,30.0,3.0,sim,sim
+360474280,1577984184,Calça Transpassada Rosa Chá,Roupas > Calças,Roupas | Roupas > Calças,PP,,0.3,25.0,30.0,2.0,sim,sim
+360475672,1575070590,Calça de linho branca Indiah,Roupas > Calças,Roupas | Roupas > Calças,38,,0.3,25.0,30.0,2.0,sim,sim
+360475953,1575071510,Mule Arezzo,Calçados,Calçados,38,,0.5,10.0,12.0,25.0,sim,sim
+360476333,1575072310,Cropped Animale,Roupas > Blusas,Roupas > Blusas,38,,0.25,20.0,25.0,2.0,sim,sim
+360476836,1575073675,Cropped Akomb,Roupas > Croppeds,Roupas | Roupas > Croppeds | Roupas > Blusas,36,,0.2,25.0,20.0,2.0,sim,sim
+360477363,1575075232,Camisa PH,Roupas > Blusas,Roupas > Blusas,M,,0.3,25.0,30.0,2.0,sim,sim
+360478732,1577949860,Vestido Festa Blessed,Roupas > Vestidos > Festa,Roupas | Roupas > Vestidos | Roupas > Vestidos > Festa,P,,0.5,25.0,35.0,3.0,sim,sim
+360479400,1575081346,Casaco de pele Zara,Roupas > Casacos,Roupas | Roupas > Casacos,,,1.2,30.0,40.0,5.0,sim,sim
+360480058,1575083200,Vestido tubo tomara que caia crepe e cetim Cavendish,Roupas > Vestidos > Festa,Roupas > Vestidos | Roupas > Vestidos > Festa,38,,0.3,20.0,25.0,2.0,sim,sim
+360480354,1575084276,Sandália Shein inspiração Cult Gaia,Calçados,Calçados,38,,0.5,20.0,12.0,30.0,sim,sim
+360480906,1575085727,Vestido Festa Bobo,Roupas > Vestidos > Festa,Roupas > Vestidos | Roupas > Vestidos > Festa,M,,0.4,25.0,3.0,20.0,sim,sim
+360481643,1575087970,Vestido Festa Martha Medeiros,Roupas > Vestidos > Festa,Roupas > Vestidos | Roupas > Vestidos > Festa,40,com fornecedor,0.3,20.0,25.0,2.0,sim,sim
+360482357,1621412700,Bolsa Zara,Acessórios > Bolsas,Acessórios | Acessórios > Bolsas,Único,,0.3,20.0,12.0,5.0,sim,sim
+360482974,1575092354,Vestido Festa Iorane,Roupas > Vestidos > Festa,Roupas > Vestidos | Roupas > Vestidos > Festa,38,,0.3,20.0,25.0,2.0,sim,sim
+360483667,1575095716,Vestido Farm,Roupas > Vestidos,Roupas > Vestidos,M,,0.3,25.0,30.0,2.0,sim,sim
+360485396,1575102053,Saia de renda Fabulous Agilita,Roupas > Saias,Roupas | Roupas > Saias,38,,0.3,25.0,30.0,2.0,sim,sim
+360485652,1621412972,Óculos Tom Ford,Roupas > Moda praia,Roupas | Roupas > Moda praia | Acessórios | Acessórios > Óculos,Único,,0.2,18.0,7.0,15.0,sim,sim
+360486399,1575105488,Macaquinho Farm,Roupas > Macaquinho,Roupas | Roupas > Macaquinho,P,,0.4,25.0,30.0,2.0,sim,sim
+360487072,1621413147,Óculos de sol Dolce & Gabbana,Roupas > Moda praia,Roupas | Roupas > Moda praia | Acessórios | Acessórios > Óculos,Único,,0.05,15.0,5.0,6.0,sim,sim
+360487291,1575108628,Vestido de Festa Iorane,Roupas > Vestidos > Festa,Roupas > Vestidos | Roupas > Vestidos > Festa,P,com fornecedor,0.4,25.0,35.0,3.0,sim,sim
+360488008,1575111786,Calça Scala Lupo Gyn,Roupas > Calças,Roupas | Roupas > Calças | Roupas > Gym,P,,0.3,20.0,25.0,3.0,sim,sim
+360488386,1575113176,Blusa regata malha,Roupas > Top,Roupas | Roupas > Top | Roupas > Blusas,,,0.15,20.0,25.0,2.0,sim,sim
+360488895,1575114876,Corta Vento Nike,Roupas > Casacos,Roupas | Roupas > Casacos,,,0.3,25.0,30.0,3.0,sim,sim
+360489702,1575118796,Calça Track & Field,Roupas > Calças,Roupas | Roupas > Calças | Roupas > Gym,Cinza,,0.3,20.0,25.0,2.0,sim,sim
+360489702,1575118799,Calça Track & Field,Roupas > Calças,Roupas | Roupas > Calças | Roupas > Gym,Preto,,0.3,20.0,25.0,2.0,sim,sim
+360490095,1575121565,Macaquinho IntiBrand,Roupas > Macaquinho,Roupas | Roupas > Macaquinho,P,,0.3,25.0,30.0,2.0,sim,sim
+360490374,1575123529,Casaco corta vento Track & Field,Roupas > Gym,Roupas | Roupas > Gym | Roupas > Casacos,M,,0.25,25.0,30.0,3.0,sim,sim
+360490708,1575124866,Jaqueta couro legítimo Animale,Roupas > Casacos,Roupas | Roupas > Casacos,38,,1.2,30.0,40.0,5.0,sim,sim
+360491037,1575126457,Camisão Renner,Roupas > Blusas,Roupas > Blusas,M,,0.2,25.0,30.0,2.0,sim,sim
+360492739,1575130889,Bata Animale,Roupas > Blusas,Roupas | Roupas > Blusas,36,,0.3,25.0,30.0,2.0,sim,sim
+360493106,1575131845,Body FYI,Roupas > Top,Roupas | Roupas > Top | Roupas > Blusas,38,,0.2,20.0,25.0,2.0,sim,sim
+360573879,1575409700,Bota de Couro Python Martins Country,Calçados,Calçados,36,,1.2,20.0,20.0,30.0,sim,sim
+360578574,1575423179,Bota Couro Pirarucu Martins Country,Calçados,Calçados,36,,1.2,20.0,15.0,30.0,sim,sim
+360578892,1575424115,Bota Couro Crocodilo Martins Country,Calçados,Calçados,36,,1.2,14.0,28.0,33.0,sim,sim
+360579155,1575424859,Bota couro Python Martins Country,Calçados,Calçados,36,,1.5,20.0,40.0,35.0,sim,sim
+360585508,1575441827,Macacão Michael Kors,Roupas > Macacào,Roupas | Roupas > Macacào,M,,0.4,25.0,30.0,2.0,sim,sim
+360590044,1621413271,Kit de Sobrancelhas Benefit,Saúde e Beleza,Saúde e Beleza,Único,,0.05,15.0,5.0,3.0,sim,sim
+360595284,1575472406,Calça Animale,Roupas > Calças,Roupas | Roupas > Calças | Roupas > Jeans,36,,0.5,25.0,30.0,3.0,sim,sim
+360597302,1575477893,Moletom CCM,Roupas > Blusas,Roupas | Roupas > Blusas | Roupas > Casacos,,,0.5,25.0,30.0,3.0,sim,sim
+360598678,1575481861,Bota Jimmy Choo Over The Knee,Calçados,Calçados,38,,1.2,20.0,45.0,30.0,sim,sim
+360599031,1575482802,Calça paetê Canal,Roupas > Calças,Roupas | Roupas > Calças,38,,0.4,25.0,30.0,3.0,sim,sim
+360601517,1575491709,Blazer Veludo Open Up,Roupas > Blazers,Roupas | Roupas > Blazers,P,,0.6,30.0,40.0,3.0,sim,sim
+360603582,1575498849,Espadrille Tory Burch,Calçados,Calçados,37,,0.5,12.0,10.0,30.0,sim,sim
+360604628,1575502554,Sandália Nude Schütz,Calçados,Calçados,38,,0.7,15.0,10.0,25.0,sim,sim
+360604901,1575503435,Calça jeans Hering,Roupas > Calças,Roupas | Roupas > Calças,42,,0.5,25.0,30.0,3.0,sim,sim
+360605254,1575504558,Vestido Blessed,Roupas > Vestidos > Festa,Roupas | Roupas > Vestidos | Roupas > Vestidos > Festa,M,com fornecedor,0.3,25.0,30.0,2.0,sim,sim
+360610326,1575518142,Macaquinho Yrus,Roupas > Blusas,Roupas | Roupas > Blusas | Roupas > Macacào | Roupas > Macaquinho,G,,0.25,20.0,25.0,2.0,sim,sim
+360610807,1575519592,Blazer Shein,Roupas > Blazers,Roupas | Roupas > Blazers,44,,0.6,30.0,40.0,3.0,sim,sim
+360611598,1575522315,Vestido Tubinho Ilhois,Roupas > Vestidos,Roupas | Roupas > Vestidos,42,,0.3,25.0,30.0,2.0,sim,sim
+360611801,1575523222,Vestido NN Colection,Roupas > Vestidos,Roupas > Vestidos,P,,0.3,25.0,30.0,3.0,sim,sim
+360612090,1575523976,Macacao Farm,Roupas > Macacào,Roupas | Roupas > Macacào,M,,0.4,25.0,30.0,2.0,sim,sim
+360612514,1575525342,Macacão Osklen,Roupas > Macacào,Roupas | Roupas > Macacào,P,,0.35,25.0,30.0,2.0,sim,sim
+360612858,1621413318,Briefcase Dolce & Gabbana,Acessórios > Bolsas,Acessórios | Acessórios > Bolsas,Único,,1.2,40.0,30.0,5.0,sim,sim
+360613397,1575528156,Suéter lã Vix,Roupas > Blusas,Roupas > Blusas | Roupas > Casacos,M,,0.5,25.0,30.0,3.0,sim,sim
+360614821,1575532310,Short Paul & Joe,Roupas > Calças,Roupas > Calças,38,,0.3,20.0,25.0,2.0,sim,sim
+360616143,1575536490,Short John John,Roupas > Shorts,Roupas | Roupas > Shorts,36,,0.25,20.0,15.0,2.0,sim,sim
+360616473,1575537750,Blusa de linho Garage,Roupas > Top,Roupas | Roupas > Top | Roupas > Blusas,G,,0.15,20.0,25.0,2.0,sim,sim
+360617315,1575540902,Vestido Animal Print TVZ,Roupas > Vestidos,Roupas | Roupas > Vestidos,M,,0.35,25.0,30.0,2.0,sim,sim
+360617781,1575542639,Vestido Farm,Roupas > Vestidos,Roupas > Vestidos,M,,0.3,20.0,25.0,2.0,sim,sim
+360622578,1621414217,Bolsa Palha Dolce Aba,Acessórios > Bolsas,Acessórios | Acessórios > Bolsas,Único,,0.3,25.0,25.0,8.0,sim,sim
+360625864,1575571544,Body Cléa Store,Roupas > Top,Roupas | Roupas > Top | Roupas > Croppeds | Roupas > Blusas,P,,0.15,20.0,25.0,2.0,sim,sim
+360629907,1575586861,Saia Animale Tricot de babado,Roupas > Saias,Roupas | Roupas > Saias,P,,0.3,25.0,30.0,2.0,sim,sim
+360630999,1575590513,Blusa com franzidos frontais crepe,Roupas > Blusas,Roupas | Roupas > Blusas,P,,0.2,25.0,20.0,2.0,sim,sim
+360631591,1575592206,Saia Maria Filó,Roupas > Saias,Roupas | Roupas > Saias | Roupas > Jeans,36,,0.5,20.0,25.0,2.0,sim,sim
+360634936,1575604480,Blusa Ateen,Roupas > Blusas,Roupas | Roupas > Blusas,P,,0.25,25.0,30.0,2.0,sim,sim
+360635957,1575607556,Vestido Paetê Animale,Roupas > Vestidos > Festa,Roupas | Roupas > Vestidos | Roupas > Vestidos > Festa,P,,0.3,20.0,25.0,2.0,sim,sim
+360637269,1575610951,Short Saia Track and Field,Roupas > Gym,Roupas | Roupas > Gym | Roupas > Shorts | Roupas > Saias,M,,0.2,20.0,15.0,2.0,sim,sim
+360640596,1575622297,Conjunto Fitness Track & Field,Roupas > Gym,Roupas | Roupas > Gym | Roupas > Shorts | Roupas > Top,M,,0.2,20.0,25.0,2.0,sim,sim
+360641337,1575625159,Top Esportivo Alto Giro,Roupas > Gym,Roupas | Roupas > Gym | Roupas > Top | Roupas > Blusas,M,,0.15,20.0,15.0,2.0,sim,sim
+360643231,1575631146,Top Esportivo Track & Field,Roupas > Gym,Roupas | Roupas > Gym | Roupas > Top | Roupas > Blusas,M,,0.15,20.0,15.0,2.0,sim,sim
+360643612,1575632460,Shorts Track & Field,Roupas > Gym,Roupas | Roupas > Gym | Roupas > Shorts,M,,0.15,20.0,15.0,2.0,sim,sim
+360644081,1575633814,Mule La Roude Larroudé x Nicolò B.,Calçados,Calçados,38,,0.6,15.0,12.0,30.0,sim,sim
+360644709,1575636579,Conjunto Yogini,Roupas > Calças,Roupas | Roupas > Calças | Roupas > Top,M,,0.35,25.0,20.0,3.0,sim,sim
+360648408,1575650605,Blazer NV quadriculado,Roupas > Blazers,Roupas | Roupas > Blazers,P,,0.7,30.0,40.0,3.0,sim,sim
+360704419,1575823074,Saia Linho com Botões Mari,Roupas > Saias,Roupas | Roupas > Saias,M,,0.4,25.0,35.0,2.0,sim,sim
+360705946,1575828088,Blazer de Linho,Roupas > Blazers,Roupas | Roupas > Blazers,M,,0.5,30.0,25.0,3.0,sim,sim
+360706987,1587547124,Saia Jeans,Roupas > Saias,Roupas | Roupas > Saias | Roupas > Jeans,42,,0.5,25.0,30.0,3.0,sim,sim
+360707486,1577954304,Vestido Curto Ombro Único com Manga,Roupas > Vestidos > Festa,Roupas > Vestidos | Roupas > Vestidos > Festa,G,,0.3,20.0,25.0,2.0,sim,sim
+360710062,1575840655,Calça NV Camuflada,Roupas > Calças,Roupas | Roupas > Calças,38,,0.4,25.0,30.0,3.0,sim,sim
+360711092,1575843394,Calça Pantalona Estampada com Listra Lateral,Roupas > Calças,Roupas | Roupas > Calças,,,0.4,25.0,30.0,2.0,sim,sim
+360711541,1583278780,Vestido longo com estampa,Roupas > Vestidos,Roupas | Roupas > Vestidos,ÚNICO,com fornrcedor,0.3,20.0,30.0,2.0,sim,sim
+360711960,1587554087,Conjunto de tricot feminino,Roupas > Calças,Roupas | Roupas > Calças | Roupas > Blusas,ÚNICO,,0.55,25.0,30.0,4.0,sim,sim
+360712250,1587555325,Casaco de Lã,Roupas > Blusas,Roupas | Roupas > Blusas,ÚNICO,,0.5,25.0,30.0,3.0,sim,sim
+360712703,1587554335,Bata de tricot,Roupas > Blusas,Roupas | Roupas > Blusas,ÚNICO,,0.4,25.0,30.0,2.0,sim,sim
+360712975,1587555635,Suéter com detalhe em renda nas costas,Roupas > Blusas,Roupas | Roupas > Blusas,ÚNICO,,0.4,25.0,30.0,2.5,sim,sim
+360713225,1587556091,Suéter Feminino Manga Longa,Roupas > Blusas,Roupas | Roupas > Blusas,ÚNICO,,0.3,25.0,30.0,3.0,sim,sim
+360717605,1575862675,Moletom de gola alta feminina,Roupas > Blusas,Roupas | Roupas > Blusas,,,0.25,25.0,30.0,2.0,sim,sim
+360717869,1587554969,Casaco tricot com plumas,Roupas > Casacos,Roupas | Roupas > Casacos,ÚNICO,,0.6,25.0,30.0,3.0,sim,sim
+360761621,1576022649,Sandália Arezzo,Calçados,Calçados,38,,0.5,12.0,15.0,30.0,sim,sim
+360761787,1576024942,Short 7 For All Mankind,Roupas > Shorts,Roupas | Roupas > Shorts,36,,0.3,20.0,25.0,2.0,sim,sim
+360761946,1621444772,Estola de pele sintética forrada de cetim Vip Peles,Roupas > Casacos,Roupas | Roupas > Casacos,Único,,0.5,30.0,20.0,5.0,sim,sim
+360762131,1583279487,Vestido Tricot com franjas,Roupas > Vestidos > Festa,Roupas > Vestidos | Roupas > Vestidos > Festa,ÚNICO,com fornecedor,0.5,25.0,30.0,2.0,sim,sim
+360762184,1587457854,Gola role casaquete,Roupas > Casacos,Roupas | Roupas > Casacos | Roupas > Blazers,ÚNICO,,0.3,20.0,25.0,3.0,sim,sim
+360762487,1576029253,Sandália Arezzo com Salto Médio,Calçados,Calçados,38,,0.6,18.0,12.0,30.0,sim,sim
+360762609,1576030124,Vestido Morgan,Roupas > Vestidos,Roupas > Vestidos,M,,0.3,25.0,35.0,3.0,sim,sim
+360762691,1576030414,Camisa Duda Lina,Roupas > Blusas,Roupas > Blusas,M,,0.3,25.0,30.0,2.5,sim,sim
+360762917,1577957798,Vestido Festa Le Lis Blanc,Roupas > Vestidos > Festa,Roupas > Vestidos | Roupas > Vestidos > Festa,42,,0.3,25.0,30.0,2.0,sim,sim
+360763321,1576033418,Blusa Mob,Roupas > Blusas,Roupas | Roupas > Blusas,P,,0.25,20.0,25.0,2.0,sim,sim
+360763383,1576033702,Camiseta Richards,Roupas > Blusas,Roupas > Blusas,M,,0.2,20.0,25.0,2.0,sim,sim
+360764303,1576036114,Camisa Richards,Roupas > Blusas,Roupas > Blusas,M,,0.3,25.0,30.0,2.0,sim,sim
+360764383,1576036470,Vestido Tubinho Brooks,Roupas > Vestidos > Festa,Roupas > Vestidos | Roupas > Vestidos > Festa,M,,0.3,25.0,30.0,2.0,sim,sim
+360764516,1577958029,Vestido Festa Brooksfield,Roupas > Vestidos > Festa,Roupas > Vestidos | Roupas > Vestidos > Festa,P,,0.3,25.0,30.0,2.0,sim,sim
+360764657,1576037478,Blusa renda Le Lis Blanc,Roupas > Blusas,Roupas > Blusas,M,,0.15,25.0,20.0,2.0,sim,sim
+360764997,1576039192,Cropped Zara,Roupas > Blusas,Roupas > Blusas,M,,0.2,20.0,25.0,2.0,sim,sim
+360765191,1576040753,Vestido Festa Scoupt,Roupas > Vestidos > Festa,Roupas > Vestidos | Roupas > Vestidos > Festa,G,,0.5,20.0,30.0,2.0,sim,sim
+360765455,1576041499,Vestido Linho Donna Brooksfield,Roupas > Vestidos,Roupas > Vestidos,M,,0.3,25.0,30.0,3.0,sim,sim
+360765692,1576042340,Blusa Martha Medeiros,Roupas > Blusas,Roupas | Roupas > Blusas,42,,0.15,20.0,25.0,2.0,sim,sim
+360765852,1576042876,Saia LLB,Roupas > Saias,Roupas | Roupas > Saias,40,,0.3,25.0,30.0,2.0,sim,sim
+360766468,1576044757,Vestido Festa Zara,Roupas > Vestidos > Festa,Roupas > Vestidos | Roupas > Vestidos > Festa,P,,0.3,25.0,35.0,3.0,sim,sim
+360766830,1576046099,Vestido Fillity,Roupas > Vestidos,Roupas > Vestidos,40,,0.3,25.0,30.0,2.0,sim,sim
+360767037,1576046741,Tomara que caia Lucy in the Ski,Roupas > Vestidos,Roupas | Roupas > Vestidos,,,0.4,25.0,30.0,3.0,sim,sim
+360767479,1621445065,Bolsa praia Martha Medeiros,Roupas > Moda praia,Roupas | Roupas > Moda praia | Acessórios | Acessórios > Bolsas,Único,,0.3,28.0,32.0,5.0,sim,sim
+360767803,1576049034,Vestido Hit,Roupas > Vestidos,Roupas > Vestidos,M,,0.3,20.0,25.0,2.0,sim,sim
+360776018,1576072029,Camisa Festa Lurex Le Lis Blanc,Roupas > Blusas,Roupas | Roupas > Blusas,M,,0.3,20.0,25.0,2.0,sim,sim
+360776497,1576073260,Macaquinho renda,Roupas > Macaquinho,Roupas | Roupas > Macaquinho,P,,0.3,25.0,30.0,2.0,sim,sim
+360776754,1576074191,Calça SIE,Roupas > Calças,Roupas | Roupas > Calças,M,,0.35,25.0,30.0,3.0,sim,sim
+360778965,1576080339,Vestido de festa Suely Cencini,Roupas > Vestidos > Festa,Roupas > Vestidos | Roupas > Vestidos > Festa,36,,0.5,25.0,30.0,2.0,sim,sim
+360779318,1576081148,Camisa Derby,Roupas > Blusas,Roupas > Blusas,P,,0.3,20.0,25.0,2.0,sim,sim
+360779970,1576084632,Colete Zara,Roupas > Casacos,Roupas | Roupas > Casacos,M,,0.4,25.0,30.0,3.0,sim,sim
+360780544,1576086504,Saia Animale,Roupas > Saias,Roupas | Roupas > Saias,M,,0.3,25.0,30.0,2.0,sim,sim
+360780834,1576087876,Camisa Animale,Roupas > Blusas,Roupas > Blusas,P,,0.25,25.0,30.0,2.0,sim,sim
+360781531,1576090410,Blusa Vix,Roupas > Moda praia,Roupas | Roupas > Moda praia | Roupas > Blusas,M,,0.15,25.0,20.0,2.0,sim,sim
+360782814,1577988087,Calça Jeans Levis,Roupas > Calças,Roupas | Roupas > Calças | Roupas > Jeans,28USA,,0.5,25.0,35.0,3.0,sim,sim
+360782814,1577988088,Calça Jeans Levis,Roupas > Calças,Roupas | Roupas > Calças | Roupas > Jeans,29USA,,0.5,25.0,35.0,3.0,sim,sim
+360783406,1576096419,Vestido Lucy IN THE SKY,Roupas > Vestidos,Roupas > Vestidos,M,,0.5,25.0,35.0,2.0,sim,sim
+360783676,1576097504,Vestido Armani Exchange,Roupas > Vestidos > Festa,Roupas | Roupas > Vestidos | Roupas > Vestidos > Festa,M,,0.4,25.0,30.0,2.0,sim,sim
+360784080,1576098871,Blusa London Culture Tricot,Roupas > Blusas,Roupas | Roupas > Blusas,M,,0.4,25.0,30.0,3.0,sim,sim
+360784534,1576100407,Blusa Jody,Roupas > Blusas,Roupas | Roupas > Blusas,M,,0.25,20.0,25.0,2.0,sim,sim
+360785483,1576103344,Calça Le Lis Blanc Preta,Roupas > Calças,Roupas | Roupas > Calças,38,,0.5,25.0,30.0,3.0,sim,sim
+360786309,1576106254,Macacão Zen,Roupas > Vestidos,Roupas | Roupas > Vestidos | Roupas > Macacào,M,,0.4,25.0,30.0,2.0,sim,sim
+360786816,1576108265,Saída de Praia / Vestido Fluido com transparência Enjoy,Roupas > Vestidos,Roupas > Vestidos,G,,0.3,25.0,35.0,3.0,sim,sim
+360787237,1576109741,Moletom Vans,Roupas > Casacos,Roupas | Roupas > Casacos,M,,0.5,25.0,30.0,3.0,sim,sim
+361309442,1577745895,Sandália Luiza Barcellos,Calçados,Calçados,36,,0.8,20.0,12.0,30.0,sim,sim
+361309472,1577745936,Sandália Carmen Steffans,Calçados,Calçados,36,,0.5,18.0,12.0,25.0,sim,sim
+361309504,1577745985,Sapatilha Santa Lolla,Calçados,Calçados,36,,0.4,12.0,8.0,28.0,sim,sim
+361309574,1577746105,Vestido Festa By Viola Chan,Roupas > Vestidos > Festa,Roupas > Vestidos | Roupas > Vestidos > Festa,P,,0.4,25.0,35.0,3.0,sim,sim
+361309597,1577746155,Conjunto Ágatha Cropped com Pantalona,Roupas > Calças,Roupas | Roupas > Calças,G,,0.35,25.0,30.0,3.5,sim,sim
+361309609,1621445167,Relógio Swarovski,Acessórios,Acessórios,Único,,0.15,8.0,5.0,8.0,sim,sim
+361309630,1577746247,Vestido PatBo preto festa,Roupas > Vestidos > Festa,Roupas > Vestidos | Roupas > Vestidos > Festa,38,,0.5,25.0,35.0,3.0,sim,sim
+361309641,1577746269,Blusa Tricot Renner,Roupas > Blusas,Roupas > Blusas,P,,0.3,25.0,30.0,3.0,sim,sim
+361309660,1577746311,Calça Bege Nv,Roupas > Calças,Roupas | Roupas > Calças,36,,0.35,25.0,30.0,2.0,sim,sim
+361309669,1577746348,Casaco Preto de Capuz Seal Off Quality,Roupas > Casacos,Roupas | Roupas > Casacos,M,,0.7,25.0,30.0,3.0,sim,sim
+361309677,1577746369,Blusa Polo de Tricot Cinza e Rosa,Roupas > Blusas,Roupas | Roupas > Blusas,M,,0.35,25.0,30.0,2.0,sim,sim
+361309688,1577746396,Vestido de Linho com Pedras Prada,Roupas > Vestidos > Festa,Roupas > Vestidos | Roupas > Vestidos > Festa,38,,0.5,25.0,35.0,3.0,sim,sim
+361309692,1577746415,Blusa Polo Ralph Lauren,Roupas > Blusas,Roupas > Blusas,M,,0.25,25.0,30.0,2.0,sim,sim
+361309703,1621445255,Bolsa Arezzo Couro,Acessórios > Bolsas,Acessórios | Acessórios > Bolsas,Único,,1.2,30.0,20.0,12.0,sim,sim
+361309711,1621445518,Bolsa Couro Michael Kors Novíssima,Acessórios > Bolsas,Acessórios | Acessórios > Bolsas,Tamanho único,,1.0,30.0,25.0,12.0,sim,sim
+361309724,1587466449,Sobretudo Lã Preto Stefanel,Roupas > Casacos,Roupas | Roupas > Casacos,P,,1.2,30.0,40.0,4.0,sim,sim
+361309737,1577746586,Sobretudo Lã Off White Stefanel,Roupas > Casacos,Roupas | Roupas > Casacos,M,,1.2,30.0,40.0,5.0,sim,sim
+361309745,1577746609,Vestido Tisse Camadas,Roupas > Vestidos > Festa,Roupas | Roupas > Vestidos | Roupas > Vestidos > Festa,M,,0.3,25.0,30.0,3.0,sim,sim
+361309756,1577967858,Vestido Gala Festa,Roupas > Vestidos > Festa,Roupas > Vestidos | Roupas > Vestidos > Festa,P,,0.5,30.0,40.0,3.0,sim,sim
+361309771,1577746694,Vestido Tule com Pedraria Prata,Roupas > Vestidos > Festa,Roupas > Vestidos | Roupas > Vestidos > Festa,P,,0.5,25.0,35.0,3.0,sim,sim
+361309800,1577746751,Saia Le Lis Blanc Crepe,Roupas > Saias,Roupas | Roupas > Saias,40,,0.3,25.0,30.0,2.0,sim,sim
+361309809,1577746774,Vestido Longo Artecor,Roupas > Vestidos,Roupas > Vestidos,G,,0.3,20.0,25.0,2.0,sim,sim
+361309823,1577980055,Vestido Ahka,Roupas > Moda praia,Roupas | Roupas > Moda praia | Roupas > Vestidos,PP,,0.3,25.0,30.0,2.0,sim,sim
+361309831,1577746827,Body Preto,Roupas > Top,Roupas | Roupas > Top | Roupas > Blusas,M,,0.15,20.0,25.0,1.0,sim,sim
+361309847,1577746869,Top Track And Field Azul Marinho,Roupas > Gym,Roupas | Roupas > Gym | Roupas > Top | Roupas > Blusas,G,,0.15,20.0,25.0,2.0,sim,sim
+361309855,1577746886,Maiô Preto com Babado de Tule Cazedonia,Roupas > Moda praia,Roupas | Roupas > Moda praia,G,,0.3,20.0,25.0,2.0,sim,sim
+361309868,1577746917,Vestido Preto de Alça Mídi com Aplicações de Cristais,Roupas > Vestidos > Festa,Roupas | Roupas > Vestidos | Roupas > Vestidos > Festa,P,,0.3,25.0,35.0,3.0,sim,sim
+361309875,1577746933,Casaco Moletom Hollister,Roupas > Jeans,Roupas | Roupas > Jeans | Roupas > Casacos,G,,0.5,25.0,30.0,4.0,sim,sim
+361309886,1577746971,Calça Zara de Veludo Preta,Roupas > Calças,Roupas > Calças,M,,0.5,25.0,30.0,2.0,sim,sim
+361309897,1577746987,Blazer Couro Cor Café D’porto,Roupas > Blazers,Roupas | Roupas > Blazers,M,,1.2,30.0,40.0,5.0,sim,sim
+361309905,1577747022,Bota em Couro Lezard Martins Country,Calçados,Calçados,36,,1.5,25.0,15.0,35.0,sim,sim
+361319396,1577776055,Bota de Couro com Pelo Interno,Calçados,Calçados,36,,1.2,20.0,15.0,30.0,sim,sim
+361319406,1577776202,Bota de Couro de Crocodilo,Calçados,Calçados,36,,1.2,25.0,15.0,35.0,sim,sim
+361319417,1577776259,Bota Phython,Calçados,Calçados,36,,1.1,15.0,38.0,32.0,sim,sim
+361319429,1577776279,Bota Couro de Avestruz,Calçados,Calçados,36,,1.2,20.0,15.0,35.0,sim,sim
+361319444,1577776342,Jaqueta de Couro Caramelo Parra Couros,Roupas > Casacos,Roupas | Roupas > Casacos,M,,1.2,30.0,40.0,5.0,sim,sim
+361319453,1577776379,Conjunto Ciclista Mieyco,Roupas > Calças,Roupas | Roupas > Calças | Roupas > Gym,P,,0.3,25.0,30.0,2.0,sim,sim
+361319466,1577776411,Top Leeloo,Roupas > Moda praia,Roupas | Roupas > Moda praia | Roupas > Top,M,,0.15,20.0,25.0,2.0,sim,sim
+361319489,1577776457,Saia Longa Branca Maria Filó Estampada com Flor Vermelha,Roupas > Saias,Roupas | Roupas > Saias,P,,0.3,20.0,25.0,2.0,sim,sim
+361319499,1577776485,Saia Preta de Couro Folic,Roupas > Saias,Roupas | Roupas > Saias,42,,0.3,15.0,3.0,20.0,sim,sim
+361319508,1577776522,Sandália Dourada Schutz,Calçados,Calçados,38,,0.8,20.0,12.0,28.0,sim,sim
+361319521,1577776574,Vestido Farm Preto Estampado com Folhas Douradas,Roupas > Vestidos > Festa,Roupas > Vestidos | Roupas > Vestidos > Festa,G,,0.25,25.0,30.0,3.0,sim,sim
+361319535,1577776602,Vestido Farm,Roupas > Vestidos,Roupas > Vestidos,P,,0.35,25.0,30.0,3.0,sim,sim
+361319539,1583291429,Vestido Botswana Preto Brilhoso,Roupas > Vestidos > Festa,Roupas | Roupas > Vestidos | Roupas > Vestidos > Festa,G,,0.3,20.0,25.0,2.0,sim,sim
+361319546,1577776652,Saia Farm,Roupas > Saias,Roupas | Roupas > Saias,P,,0.3,25.0,30.0,2.0,sim,sim
+361319560,1577776727,Calça Iorane,Roupas > Calças,Roupas | Roupas > Calças,36,,0.4,25.0,30.0,3.0,sim,sim
+361319571,1577776781,Jaqueta The Strip de Las Vegas,Roupas > Casacos,Roupas | Roupas > Casacos,M,,0.7,25.0,30.0,4.0,sim,sim
+361319581,1577776813,Blusa Couro Legítimo,Roupas > Blusas,Roupas | Roupas > Blusas,G,,0.4,25.0,20.0,3.0,sim,sim
+361319605,1621445572,Bolsa Jpk,Acessórios > Bolsas,Acessórios | Acessórios > Bolsas,Único,,0.5,30.0,20.0,10.0,sim,sim
+361319650,1577777065,Sapatilha Michael Kors,Calçados,Calçados,34,,0.5,15.0,7.0,25.0,sim,sim
+361319661,1577777090,Sandália Verde Purpurina Animale,Calçados,Calçados,34,,0.4,20.0,10.0,30.0,sim,sim
+361319676,1577777234,Sandália Arezzo,Calçados,Calçados,34,,0.5,18.0,12.0,28.0,sim,sim
+361319686,1577777267,Calça Crepe Esmeral,Roupas > Calças,Roupas | Roupas > Calças,M,,0.4,25.0,35.0,2.0,sim,sim
+361319702,1577777313,Vestido Longo Depósito,Roupas > Vestidos,Roupas | Roupas > Vestidos,M,,0.35,25.0,35.0,2.0,sim,sim
+361319716,1577777345,Vestido Zara,Roupas > Vestidos,Roupas > Vestidos,M,,0.3,25.0,30.0,2.0,sim,sim
+361319730,1583235010,Vestido Maria Filó,Roupas > Vestidos,Roupas | Roupas > Vestidos,P,,0.3,25.0,30.0,2.0,sim,sim
+361319741,1577777392,Vestido Transpassado Animale,Roupas > Vestidos,Roupas > Vestidos,38,,0.3,25.0,35.0,2.0,sim,sim
+361319753,1583237544,Vestido Vera Tricot,Roupas > Vestidos,Roupas | Roupas > Vestidos,ÚNICO,,0.3,25.0,35.0,3.0,sim,sim
+361319767,1621445656,Chapéus,Acessórios,Acessórios,Único,,0.2,30.0,10.0,30.0,sim,sim
+361319826,1577777649,Cropped Farm,Roupas > Croppeds,Roupas | Roupas > Croppeds,P,,0.15,20.0,25.0,2.0,sim,sim
+361319881,1577777755,Vestido Longo Farm,Roupas > Vestidos,Roupas > Vestidos,P,,0.3,25.0,35.0,3.0,sim,sim
+361319916,1577777802,Vestido Tricot John John Black,Roupas > Vestidos,Roupas > Vestidos,P,,0.3,20.0,25.0,2.0,sim,sim
+361319944,1577777864,Saia John John Black,Roupas > Saias,Roupas | Roupas > Saias,P,,0.2,25.0,20.0,2.0,sim,sim
+361319970,1577777899,Sapato Arezzo,Calçados,Calçados,38,,0.8,20.0,12.0,30.0,sim,sim
+361462451,1578289353,Saia Hollister,Roupas > Saias,Roupas | Roupas > Saias,P,,0.25,20.0,25.0,2.0,sim,sim
+361462484,1578289452,Short Le Lis Blanc,Roupas > Shorts,Roupas | Roupas > Shorts,P,,0.2,20.0,25.0,2.0,sim,sim
+361462524,1578289535,Saia Talie,Roupas > Saias,Roupas | Roupas > Saias,P,,0.25,25.0,30.0,2.0,sim,sim
+361462557,1578289611,Spencer Colcci,Roupas > Blazers,Roupas | Roupas > Blazers,P,,0.5,25.0,30.0,3.0,sim,sim
+361462619,1578289733,Vestido Grécia Fabulous Agilita,Roupas > Vestidos > Festa,Roupas | Roupas > Vestidos | Roupas > Vestidos > Festa,P,,0.3,20.0,25.0,2.0,sim,sim
+361462715,1578289894,Casaquinho Lã Merlim Shein,Roupas > Casacos,Roupas | Roupas > Casacos,M,,0.5,25.0,30.0,3.0,sim,sim
+361462748,1578289963,Camisa Shop 126,Roupas > Top,Roupas | Roupas > Top,P,,0.25,25.0,30.0,2.0,sim,sim
+361462773,1583240176,Vestido Cia Marítima,Roupas > Moda praia,Roupas | Roupas > Moda praia | Roupas > Vestidos,M,,0.3,20.0,25.0,2.0,sim,sim
+361462845,1578290148,Sandália,Calçados > Sandálias,Calçados | Calçados > Sandálias,36,,0.5,15.0,10.0,25.0,sim,sim
+361462880,1578290257,Saia Hollister,Roupas > Saias,Roupas | Roupas > Saias,PP,,0.2,20.0,15.0,2.0,sim,sim
+361462915,1578290296,Saia Shop 126,Roupas > Saias,Roupas | Roupas > Saias,40,,0.2,20.0,25.0,3.0,sim,sim
+361462955,1578290423,Blusa Homem de Barro,Roupas > Top,Roupas | Roupas > Top,P,,0.2,20.0,25.0,2.0,sim,sim
+361463329,1578291109,Vestido Farm,Roupas > Vestidos,Roupas | Roupas > Vestidos,P,,0.25,30.0,40.0,2.0,sim,sim
+361463403,1578291250,Saia Zara,Roupas > Saias,Roupas | Roupas > Saias,PP,,0.3,25.0,30.0,2.0,sim,sim
+361463438,1578291337,Top Iorane,Roupas > Top,Roupas | Roupas > Top | Roupas > Blusas,38,,0.25,20.0,25.0,2.0,sim,sim
+361463512,1621445758,Clutch Dourada Gaspri,Acessórios > Bolsas,Acessórios | Acessórios > Bolsas,Único,,0.3,20.0,12.0,4.0,sim,sim
+361463867,1578292188,Calça Track & Field Gyn,Roupas > Calças,Roupas | Roupas > Calças | Roupas > Gym,M,,0.3,20.0,25.0,2.0,sim,sim
+361463909,1578292259,Blusa de Veludo,Roupas > Blusas,Roupas | Roupas > Blusas,P,,0.25,20.0,25.0,2.0,sim,sim
+361463949,1578292367,Top Track & Field,Roupas > Gym,Roupas | Roupas > Gym | Roupas > Top,M,,0.3,20.0,25.0,2.0,sim,sim
+361463991,1578292467,Saída de Praia Salinas,Roupas > Moda praia,Roupas | Roupas > Moda praia | Roupas > Vestidos,G,,0.15,20.0,25.0,2.0,sim,sim
+361464068,1578292676,Saia de Couro com Malha Ateen (couro Na Frente com Malha Na Parte Traseira),Roupas > Saias,Roupas | Roupas > Saias,38,,0.4,25.0,20.0,2.0,sim,sim
+361464097,1578292791,Vestido de Paetê Ateen,Roupas > Vestidos > Festa,Roupas | Roupas > Vestidos | Roupas > Vestidos > Festa,38,,0.3,25.0,35.0,3.0,sim,sim
+361464123,1583242814,Vestido Alfaiataria Animale,Roupas > Vestidos > Festa,Roupas | Roupas > Vestidos | Roupas > Vestidos > Festa,38,,0.4,25.0,30.0,3.0,sim,sim
+361464147,1578292927,Blusa Prata Maria Filó,Roupas > Blusas,Roupas | Roupas > Blusas,P,,0.2,20.0,25.0,2.0,sim,sim
+361464177,1578293002,Camiseta Seda Babado Ateen,Roupas > Blusas,Roupas | Roupas > Blusas,P,,0.15,20.0,25.0,2.0,sim,sim
+361464199,1578293070,Blazer Botão Strass NV,Roupas > Vestidos,Roupas | Roupas > Vestidos | Roupas > Blazers,P,,0.5,30.0,40.0,3.0,sim,sim
+361464229,1621445904,Bolsa Miu Miu Vitello Daino Tote,Acessórios > Bolsas,Acessórios | Acessórios > Bolsas,Único,,1.2,32.0,22.0,15.0,sim,sim
+361464284,1621446034,Bolsa Miu Miu Iconic Cristal,Acessórios > Bolsas,Acessórios | Acessórios > Bolsas,Único,,0.5,25.0,15.0,8.0,sim,sim
+361464377,1621738015,Bolsa Hugo Boss Taylor Tote,Acessórios > Bolsas,Acessórios | Acessórios > Bolsas,Único,,0.7,35.0,28.0,12.0,sim,sim
+361464432,1578293811,Bolsa com Etiqueta Lacrada JPK,Acessórios > Bolsas,Acessórios | Acessórios > Bolsas,,,0.5,20.0,20.0,10.0,sim,sim
+361464457,1578293895,Sapato Jeans Havaianas,Calçados,Calçados,38,,0.3,15.0,10.0,30.0,sim,sim
+361464475,1578293954,Sapato Outer,Calçados,Calçados,38,,0.6,22.0,11.0,32.0,sim,sim
+361464528,1583295293,Vestido de Cetim Valentinas,Roupas > Vestidos > Festa,Roupas | Roupas > Vestidos | Roupas > Vestidos > Festa,P,,0.3,25.0,30.0,3.0,sim,sim
+361464554,1578294176,Camisa de Cetim Best Dress,Roupas > Blusas,Roupas | Roupas > Blusas,M,,0.25,25.0,30.0,3.0,sim,sim
+361464586,1578294251,Conjunto Mini Vestido e Saia Longa Van Van,Roupas > Vestidos > Festa,Roupas | Roupas > Vestidos | Roupas > Vestidos > Festa | Roupas > Saias,PP,,0.5,25.0,30.0,3.0,sim,sim
+361464621,1578294369,Vestido TVZ,Roupas > Saias,Roupas | Roupas > Saias,36,,0.35,25.0,30.0,2.0,sim,sim
+361464649,1578294475,Vestido Blacktie Oleg Cassini,Roupas > Vestidos > Festa,Roupas | Roupas > Vestidos | Roupas > Vestidos > Festa,36,,0.5,25.0,35.0,3.0,sim,sim
+361464719,1578294651,Conjunto de Saia Longa e Mini Vestido Vinho Van Van,Roupas > Vestidos > Festa,Roupas | Roupas > Vestidos | Roupas > Vestidos > Festa | Roupas > Saias,PP,,0.3,25.0,35.0,3.0,sim,sim
+361464774,1578294831,Vestido Rosa Bandagem,Roupas > Vestidos > Festa,Roupas | Roupas > Vestidos | Roupas > Vestidos > Festa,P,,0.3,20.0,25.0,2.0,sim,sim
+361464803,1578294910,Mini Vestido Mangas Removíveis Splash,Roupas > Vestidos > Festa,Roupas | Roupas > Vestidos | Roupas > Vestidos > Festa,PP,,0.2,20.0,25.0,2.0,sim,sim
+361464832,1578294975,Conjunto de Mini Vestido e Saia Longa Stela Fisher com Bordado Marroquino,Roupas > Vestidos > Festa,Roupas | Roupas > Vestidos | Roupas > Vestidos > Festa | Roupas > Saias,PP,,0.5,30.0,40.0,5.0,sim,sim
+361464895,1578295115,Calça jeans Levis (lavagem claro),Roupas > Calças,Roupas | Roupas > Calças | Roupas > Jeans,40,,0.5,25.0,30.0,2.0,sim,sim
+361464970,1578295433,Vestido em Chiffon de Seda Pura Cidalia Namora,Roupas > Vestidos > Festa,Roupas | Roupas > Vestidos | Roupas > Vestidos > Festa,PP,,0.3,25.0,35.0,3.0,sim,sim
+361465164,1578296080,Blusa Frank Amaury,Roupas > Blusas,Roupas | Roupas > Blusas,,,0.2,20.0,25.0,2.0,sim,sim
+361465197,1578296301,Polo Aeropostale,Roupas > Blusas,Roupas | Roupas > Blusas,,,0.3,25.0,30.0,2.0,sim,sim
+361466955,1621444260,Bolsa Gucci Bamboo Daily Flap,Acessórios > Bolsas,Acessórios | Acessórios > Bolsas,Único,,1.2,25.0,20.0,8.0,sim,sim
+361489800,1578381407,Blusa Canelada Abercrombie,Roupas > Blusas,Roupas | Roupas > Blusas,,,0.15,20.0,25.0,2.0,sim,sim
+361489816,1621444166,Regata Elle Et Lui,Roupas > Top,Roupas | Roupas > Top | Roupas > Blusas,Único,,0.15,20.0,25.0,2.0,sim,sim
+361489830,1621444113,Camiseta Marrom Le Lis Blanc,Roupas > Blusas,Roupas | Roupas > Blusas,Único,,0.2,20.0,25.0,2.0,sim,sim
+361489877,1578381743,Cropped Araras Farm,Roupas > Moda praia,Roupas | Roupas > Moda praia | Roupas > Top | Roupas > Blusas,P,,0.15,20.0,25.0,2.0,sim,sim
+361489888,1578381801,Macacão Gym Labellamafia,Roupas > Gym,Roupas | Roupas > Gym | Roupas > Macacào,P,,0.3,20.0,25.0,2.0,sim,sim
+361489898,1578381874,Short Saia Garage,Roupas > Shorts,Roupas | Roupas > Shorts | Roupas > Saias,M,,0.15,20.0,25.0,2.0,sim,sim
+361489996,1578382366,Vestido Festa Cetim,Roupas > Vestidos > Festa,Roupas | Roupas > Vestidos | Roupas > Vestidos > Festa,P,,0.35,25.0,30.0,3.0,sim,sim
+361490071,1578383025,Vestido A Collection,Roupas > Vestidos,Roupas | Roupas > Vestidos,PP,,0.25,20.0,25.0,2.0,sim,sim
+361490095,1578383289,Vestido Festa Longo,Roupas > Vestidos > Festa,Roupas | Roupas > Vestidos | Roupas > Vestidos > Festa,P,,0.5,25.0,35.0,3.0,sim,sim
+361490199,1578383603,Camiseta de Paetê,Roupas > Vestidos > Festa,Roupas | Roupas > Vestidos | Roupas > Vestidos > Festa | Roupas > Blusas,G,,0.2,25.0,30.0,2.0,sim,sim
+361490227,1578383667,Vestido Seda Lygia Farah,Roupas > Vestidos > Festa,Roupas | Roupas > Vestidos | Roupas > Vestidos > Festa,M,,0.3,25.0,35.0,3.0,sim,sim
+361490284,1578384443,Vestido de Festa Longo,Roupas > Vestidos > Festa,Roupas | Roupas > Vestidos | Roupas > Vestidos > Festa,P,,0.5,30.0,25.0,4.0,sim,sim
+361490328,1578384544,Vestido Vix,Roupas > Vestidos,Roupas | Roupas > Vestidos,38,,0.3,25.0,30.0,2.0,sim,sim
+361490360,1578384650,Vestido de Festa Maria Bonita,Roupas > Vestidos > Festa,Roupas | Roupas > Vestidos | Roupas > Vestidos > Festa,38,,0.5,25.0,35.0,3.0,sim,sim
+361490395,1578384734,Vestido Colcci,Roupas > Vestidos > Festa,Roupas | Roupas > Vestidos | Roupas > Vestidos > Festa,P,,0.3,20.0,25.0,2.0,sim,sim
+361490427,1578384839,Vestido Festa Pathisa,Roupas > Vestidos > Festa,Roupas | Roupas > Vestidos | Roupas > Vestidos > Festa,M,,0.3,25.0,35.0,2.0,sim,sim
+361490459,1578384889,Tricot Oversized Bobo,Roupas > Blusas,Roupas | Roupas > Blusas,M,,0.5,25.0,30.0,3.0,sim,sim
+361490490,1587545328,Suéter Tricot GAP,Roupas > Blusas,Roupas | Roupas > Blusas | Roupas > Casacos,M,,0.4,25.0,30.0,3.0,sim,sim
+361490507,1578384994,Blusinha Topshop,Roupas > Blusas,Roupas | Roupas > Blusas,P,,0.15,20.0,25.0,2.0,sim,sim
+361490560,1583249438,Vestido de Festa,Roupas > Vestidos > Festa,Roupas | Roupas > Vestidos | Roupas > Vestidos > Festa,P,,0.5,25.0,35.0,3.0,sim,sim
+361490578,1583254359,Vestido de Festa Lygia Farah,Roupas > Vestidos > Festa,Roupas | Roupas > Vestidos | Roupas > Vestidos > Festa,M,,0.6,25.0,35.0,3.0,sim,sim
+362743657,1582626899,Camisa Social Hering,Roupas > Blusas,Roupas | Roupas > Blusas,P,,0.25,25.0,30.0,3.0,sim,sim
+362743663,1587549656,Vestido Abercrombie,Roupas > Vestidos > Festa,Roupas | Roupas > Vestidos | Roupas > Vestidos > Festa,P,,0.3,25.0,35.0,3.0,sim,sim
+362743672,1582626953,Calça Jeans rasgada Zara,Roupas > Calças,Roupas | Roupas > Calças | Roupas > Jeans,38,,0.5,25.0,30.0,2.0,sim,sim
+362743678,1582626964,Vestido Papaya,Roupas > Vestidos > Festa,Roupas | Roupas > Vestidos | Roupas > Vestidos > Festa,M,,0.3,20.0,25.0,2.0,sim,sim
+362743684,1583753592,Conjunto Gym,Roupas > Gym,Roupas | Roupas > Gym,ÚNICO / Azul,,0.25,20.0,25.0,2.0,sim,sim
+362743684,1583753594,Conjunto Gym,Roupas > Gym,Roupas | Roupas > Gym,ÚNICO / Verde,,0.25,20.0,25.0,2.0,sim,sim
+362743700,1582627091,Vestido H&m,Roupas > Vestidos,Roupas | Roupas > Vestidos,34,,0.25,25.0,30.0,2.0,sim,sim
+362743706,1582627100,Calça Jeans Cintura Alta Zara,Roupas > Calças,Roupas | Roupas > Calças | Roupas > Jeans,36,,0.5,25.0,30.0,2.0,sim,sim
+362743711,1582627106,Vestido Renda Abercrombie,Roupas > Vestidos > Festa,Roupas | Roupas > Vestidos | Roupas > Vestidos > Festa,M,,0.3,25.0,30.0,2.0,sim,sim
+362743717,1582627112,Vestido Cavendish,Roupas > Vestidos > Festa,Roupas | Roupas > Vestidos | Roupas > Vestidos > Festa,M,,0.3,25.0,30.0,2.0,sim,sim
+362743723,1621443537,Coach Park Leather NORTH/SOUTH TOTE,Acessórios > Bolsas,Acessórios | Acessórios > Bolsas,Único,,1.2,32.0,29.0,12.0,sim,sim
+362743730,1582627128,Spencer H&m,Roupas > Blazers,Roupas | Roupas > Blazers,P,,0.4,25.0,35.0,3.0,sim,sim
+362743740,1587548465,Vestido Festa Shantung,Roupas > Vestidos > Festa,Roupas | Roupas > Vestidos | Roupas > Vestidos > Festa,42,,0.6,25.0,35.0,4.0,sim,sim
+362743751,1621443377,Bolsa Coach,Acessórios > Bolsas,Acessórios | Acessórios > Bolsas,Único,,0.5,30.0,20.0,10.0,sim,sim
+362743757,1621442650,Bolsa Louis Vuitton,Acessórios > Bolsas,Acessórios | Acessórios > Bolsas,Único,,0.5,30.0,20.0,15.0,sim,sim
+362743766,1582627196,Vestido de Festa Longo Exatta,Roupas > Vestidos > Festa,Roupas | Roupas > Vestidos | Roupas > Vestidos > Festa,M,,0.5,30.0,40.0,5.0,sim,sim
+362743772,1582627204,Blusa Le Lis Blanc,Roupas > Blusas,Roupas | Roupas > Blusas,36,,0.2,25.0,20.0,2.0,sim,sim
+362743780,1582627221,Camiseta Seda Le Lis Blanc,Roupas > Blusas,Roupas | Roupas > Blusas,P,,0.15,25.0,30.0,2.0,sim,sim
+362743790,1582627277,Blusa com Renda Sheroy,Roupas > Saias,Roupas | Roupas > Saias | Roupas > Blusas,M,,0.3,20.0,25.0,2.0,sim,sim
+362743798,1582627293,Camisa Branca Ateen,Roupas > Blusas,Roupas | Roupas > Blusas,36,,0.2,25.0,30.0,2.0,sim,sim
+362743804,1582627310,Vestido saída de Praia Tidsy,Roupas > Moda praia > Saída de praia,Roupas | Roupas > Moda praia | Roupas > Moda praia > Saída de praia | Roupas > Vestidos,40,,0.3,20.0,25.0,2.0,sim,sim
+362743810,1582627319,Casaqueto Cinza Ateen,Roupas > Casacos,Roupas | Roupas > Casacos,P,,0.35,25.0,30.0,3.0,sim,sim
+362743816,1582627333,Camisa Branca Iorane,Roupas > Blusas,Roupas | Roupas > Blusas,36,,0.3,25.0,30.0,2.0,sim,sim
+362743825,1621442540,Clutch Shein (inspiração Bottega Veneta),Acessórios > Bolsas,Acessórios | Acessórios > Bolsas,Único,,0.5,30.0,12.0,8.0,sim,sim
+362743831,1582681280,Trench Coat Tommy Hilfiger,Roupas > Casacos > Roupa Marca,Roupas | Roupas > Casacos | Roupas > Casacos > Roupa Marca,XP,,1.2,30.0,40.0,5.0,sim,sim
+362743837,1582627382,Blazer Annexe,Roupas > Casacos,Roupas | Roupas > Casacos | Roupas > Blazers,M,,0.6,30.0,40.0,3.0,sim,sim
+362743843,1582627389,Cardigan com Frente Aberta,Roupas > Blusas,Roupas | Roupas > Blusas | Roupas > Casacos,M,,0.35,25.0,35.0,3.0,sim,sim
+362743856,1582627439,Blazer Sweet,Roupas > Casacos,Roupas | Roupas > Casacos | Roupas > Blazers,40,,0.6,25.0,35.0,3.0,sim,sim
+362743867,1621442089,Necessaire Kate Spade New York,Acessórios > Bolsas,Acessórios | Acessórios > Bolsas,Único,,0.2,22.0,13.0,5.0,sim,sim
+362743876,1582627492,Calça Jogger Zara,Roupas > Calças,Roupas | Roupas > Calças,M,,0.5,20.0,25.0,2.0,sim,sim
+362743885,1582627506,Macaquinho de Veludo Ágatha,Roupas > Macaquinho,Roupas | Roupas > Macaquinho,44,,0.25,20.0,25.0,2.0,sim,sim
+362743898,1582627522,Conjunto Iorane,Roupas,Roupas,38,,0.5,25.0,30.0,3.0,sim,sim
+362743902,1582627526,Vestido Ginger,Roupas > Vestidos,Roupas | Roupas > Vestidos,38,,0.35,25.0,30.0,2.0,sim,sim
+362743918,1582627550,Macaquinho Farm,Roupas > Macaquinho,Roupas | Roupas > Macaquinho,GG,,0.2,25.0,30.0,2.0,sim,sim
+362743924,1582627560,Vestido Mini Gola Alta Animale,Roupas > Vestidos,Roupas | Roupas > Vestidos,M,,0.3,20.0,25.0,2.0,sim,sim
+362743933,1582680615,Macaquinho Listra Zara,Roupas > Macaquinho,Roupas | Roupas > Macaquinho,XG,,0.3,20.0,25.0,2.0,sim,sim
+362743937,1582627629,Macacão Lança Perfume,Roupas > Vestidos > Festa,Roupas | Roupas > Vestidos | Roupas > Vestidos > Festa | Roupas > Macacào,M,,0.4,25.0,35.0,3.0,sim,sim
+362743947,1582627646,Macaquinho Sacada,Roupas > Macaquinho,Roupas | Roupas > Macaquinho,44,,0.3,25.0,30.0,2.0,sim,sim
+362743952,1582627650,Blusa Sacada Tule,Roupas > Blusas,Roupas | Roupas > Blusas,M,,0.2,25.0,30.0,2.0,sim,sim
+362743960,1582627687,Vestido Serotonina,Roupas > Vestidos,Roupas | Roupas > Vestidos,M,,0.3,25.0,35.0,2.0,sim,sim
+362743968,1582627709,Vestido Tricot Lizie,Roupas > Vestidos,Roupas | Roupas > Vestidos,P,,0.5,25.0,30.0,2.0,sim,sim
+362743974,1582627731,Vestido Serotonina,Roupas > Vestidos,Roupas | Roupas > Vestidos,P,,0.35,20.0,25.0,2.0,sim,sim
+362743991,1582627762,Vestido Peepou verde com leve brilho,Roupas > Vestidos,Roupas | Roupas > Vestidos,M,,0.3,25.0,30.0,2.0,sim,sim
+362743998,1582627774,Vestido com cinto Lucidez,Roupas > Vestidos,Roupas | Roupas > Vestidos,M,,0.3,25.0,35.0,3.0,sim,sim
+362744013,1582627789,Short Jeans My Favorite Things,Roupas > Shorts,Roupas | Roupas > Shorts | Roupas > Jeans,40,,0.3,25.0,20.0,2.0,sim,sim
+362744021,1582627827,Vestido Brilhoso MNG,Roupas > Vestidos > Festa,Roupas | Roupas > Vestidos | Roupas > Vestidos > Festa,G,,0.3,25.0,30.0,2.0,sim,sim
+362744029,1582627835,Conjunto Maria Filó,Roupas,Roupas,G,,0.5,25.0,30.0,3.0,sim,sim
+362744036,1582627842,Macacão Animale,Roupas > Macacào,Roupas | Roupas > Macacào,M,,0.3,20.0,25.0,2.0,sim,sim
+362744044,1582627851,Macacão Farm,Roupas > Macacào,Roupas | Roupas > Macacào,M,,0.5,25.0,30.0,2.0,sim,sim
+362744050,1582627878,Vestido Animale,Roupas > Vestidos > Festa,Roupas | Roupas > Vestidos | Roupas > Vestidos > Festa,42,,0.3,25.0,35.0,2.0,sim,sim
+362744058,1582627888,Vestido Open,Roupas > Vestidos,Roupas | Roupas > Vestidos,G,,0.3,20.0,25.0,2.0,sim,sim
+362744067,1582627920,Vestido Animale,Roupas > Vestidos,Roupas | Roupas > Vestidos,G,,0.3,25.0,35.0,2.0,sim,sim
+362744073,1582627926,Vestido Simplet,Roupas > Vestidos,Roupas | Roupas > Vestidos,GG,,0.3,25.0,35.0,2.0,sim,sim
+362744076,1582627930,Vestido Farm,Roupas > Vestidos,Roupas | Roupas > Vestidos,G,,0.3,25.0,35.0,2.0,sim,sim
+362744085,1582627942,Blusa Open,Roupas > Blusas,Roupas | Roupas > Blusas,M,,0.25,20.0,25.0,2.0,sim,sim
+362744091,1582627948,Vestido Longo Zinzane,Roupas > Vestidos > Festa,Roupas | Roupas > Vestidos | Roupas > Vestidos > Festa,M,,0.3,25.0,35.0,3.0,sim,sim
+362744096,1582627994,Blusa Animale,Roupas > Blusas,Roupas | Roupas > Blusas,M,,0.25,25.0,30.0,2.0,sim,sim
+362744103,1582628001,Short Jeans Forever 21,Roupas > Shorts,Roupas | Roupas > Shorts | Roupas > Jeans,40,,0.3,20.0,25.0,2.0,sim,sim
+362744111,1582628012,Macacão Shoulder,Roupas > Vestidos,Roupas | Roupas > Vestidos | Roupas > Macacào,44,,0.3,25.0,35.0,3.0,sim,sim
+362744116,1582628018,Conjunto Amarante,Roupas > Macaquinho,Roupas | Roupas > Macaquinho,M,,0.3,25.0,30.0,3.0,sim,sim
+362744130,1582628044,Vestido Animale,Roupas > Vestidos > Festa,Roupas | Roupas > Vestidos | Roupas > Vestidos > Festa,M,,0.5,25.0,35.0,3.0,sim,sim
+362744137,1582628059,Macaquinho Lizie Terra,Roupas > Macaquinho,Roupas | Roupas > Macaquinho,M,,0.3,20.0,25.0,2.0,sim,sim
+362744144,1582628072,Vestido Farm Estampa Tribal,Roupas > Vestidos,Roupas | Roupas > Vestidos,G,,0.3,20.0,25.0,2.0,sim,sim
+362744150,1582628080,Macacão Aladim,Roupas > Macacào,Roupas | Roupas > Macacào,M,,0.4,20.0,25.0,2.0,sim,sim
+362744157,1582628090,Vestido Animale,Roupas > Vestidos > Festa,Roupas | Roupas > Vestidos | Roupas > Vestidos > Festa,M,,0.3,20.0,25.0,2.0,sim,sim
+362744165,1582628100,Macaquinho Shoulder,Roupas > Macaquinho,Roupas | Roupas > Macaquinho,42,,0.3,20.0,25.0,2.0,sim,sim
+362744175,1582628112,Vestido Animale Jeans,Roupas > Vestidos,Roupas | Roupas > Vestidos | Roupas > Jeans,M,,0.3,20.0,25.0,2.0,sim,sim
+362744184,1582628129,Blusa Tule Dress To,Roupas > Blusas,Roupas | Roupas > Blusas,M,,0.15,20.0,25.0,2.0,sim,sim
+362744198,1582628151,Vestido Zara Verde,Roupas > Vestidos,Roupas | Roupas > Vestidos,G,,0.3,20.0,25.0,2.0,sim,sim
+362744218,1582628191,Macacão Farm,Roupas > Macacào,Roupas | Roupas > Macacào,M,,0.35,25.0,30.0,2.0,sim,sim
+362744228,1582628209,Calça Animale,Roupas > Calças,Roupas | Roupas > Calças,P,,0.3,25.0,30.0,2.0,sim,sim
+362744234,1582628217,Camisa Seda com Pedraria Le Richard,Roupas > Blusas,Roupas | Roupas > Blusas,G,,0.25,25.0,30.0,2.0,sim,sim
+362744239,1582628236,Camisa Animale,Roupas > Blusas,Roupas | Roupas > Blusas,G,,0.2,25.0,30.0,2.0,sim,sim
+362744250,1582628253,Vestido Garage,Roupas > Vestidos,Roupas | Roupas > Vestidos,GG,,0.45,25.0,30.0,3.0,sim,sim
+362744256,1582628269,Blusa Ombro a Ombro Le Lis Blanc,Roupas > Blusas,Roupas | Roupas > Blusas,M,,0.2,25.0,30.0,2.0,sim,sim
+362744267,1582628282,Cardigan Open Up,Roupas > Casacos,Roupas | Roupas > Casacos,G,,0.3,25.0,30.0,2.0,sim,sim
+362744279,1582628341,Camisão Dress To,Roupas > Vestidos,Roupas | Roupas > Vestidos,G,,0.35,25.0,32.0,2.0,sim,sim
+362744288,1582628356,Mule Clássico Schütz,Calçados > Sandálias,Calçados | Calçados > Sandálias,40,,0.8,15.0,12.0,30.0,sim,sim
+362744295,1582628402,Vestido Open,Roupas > Vestidos > Festa,Roupas | Roupas > Vestidos | Roupas > Vestidos > Festa,G,,0.35,25.0,30.0,3.0,sim,sim
+362744303,1582628410,Saia Chamois SK Skunk,Roupas > Saias,Roupas | Roupas > Saias,44,,0.3,25.0,30.0,2.0,sim,sim
+362744312,1582628419,Maiô Palmeiras,Roupas > Moda praia,Roupas | Roupas > Moda praia,G,,0.2,20.0,30.0,1.0,sim,sim
+362744320,1582628432,Macacão Wazzu,Roupas > Macaquinho,Roupas | Roupas > Macaquinho,G,,0.25,20.0,25.0,2.0,sim,sim
+362744327,1582628440,Vestido Lucidez,Roupas > Vestidos > Festa,Roupas | Roupas > Vestidos | Roupas > Vestidos > Festa,44,,0.4,25.0,35.0,3.0,sim,sim
+362744333,1582628460,Vestido Lucidez,Roupas > Vestidos > Festa,Roupas | Roupas > Vestidos | Roupas > Vestidos > Festa,GG,,0.35,25.0,30.0,2.0,sim,sim
+362744339,1582628468,Vestido Lucidez,Roupas > Vestidos,Roupas | Roupas > Vestidos,GG,,0.3,25.0,30.0,2.0,sim,sim
+362744345,1582628473,Camiseta Linho Barcala,Roupas > Blusas,Roupas | Roupas > Blusas | Roupas > linho,G,,0.15,25.0,30.0,2.0,sim,sim
+362744355,1582628496,Vestido Lucidez,Roupas > Vestidos > Festa,Roupas | Roupas > Vestidos | Roupas > Vestidos > Festa,G,,0.35,30.0,25.0,3.0,sim,sim
+362744366,1583263471,Vestido Tubinho Tahari,Roupas > Vestidos > Festa,Roupas | Roupas > Vestidos | Roupas > Vestidos > Festa,G,,0.45,25.0,35.0,3.0,sim,sim
+362744377,1582628533,Camisa Polo Ralph Lauren,Roupas > Blusas,Roupas | Roupas > Blusas,P,,0.3,25.0,30.0,2.0,sim,sim
+362744386,1582628548,Vestido Seda Estampado Nefertari,Roupas > Vestidos > Festa,Roupas | Roupas > Vestidos | Roupas > Vestidos > Festa,G,,0.25,20.0,25.0,2.0,sim,sim
+362744397,1582628582,Blusa Seda Lucidez,Roupas > Blusas,Roupas | Roupas > Blusas,G,,0.15,25.0,30.0,2.0,sim,sim
+362744405,1582628593,Vestido Lucidez,Roupas > Vestidos > Festa,Roupas | Roupas > Vestidos | Roupas > Vestidos > Festa,GG,,0.4,25.0,35.0,3.0,sim,sim
+362744412,1582628602,Sapatilha Couro Via Curtume,Calçados,Calçados,40,,0.5,20.0,8.0,12.0,sim,sim
+362744421,1582628623,Sandália Larroude Annie Bege com Vinil,Calçados > Sandálias,Calçados | Calçados > Sandálias,40,,0.5,10.0,12.0,28.0,sim,sim
+362744427,1582628638,Anabela Jeans Cervera,Calçados > Sandálias,Calçados | Calçados > Sandálias,40,,0.8,15.0,12.0,30.0,sim,sim
+362744434,1582628649,Sandália Doctor Shoes,Calçados > Sandálias,Calçados | Calçados > Sandálias,40,,0.85,12.0,10.0,30.0,sim,sim
+362744443,1582628663,Sandália Schütz,Calçados > Sandálias,Calçados | Calçados > Sandálias,40,,0.5,20.0,10.0,30.0,sim,sim
+362744453,1582628683,Saia Linho Two Fashion,Roupas > Saias,Roupas | Roupas > Saias,42,,0.3,25.0,35.0,2.0,sim,sim
+362744465,1621441585,Mochila Uncle K Nylon,Acessórios > Bolsas,Acessórios | Acessórios > Bolsas,Único,,0.6,30.0,40.0,15.0,sim,sim
+362744474,1621441127,Bolsa Transversal Kipling Syro,Acessórios > Bolsas,Acessórios | Acessórios > Bolsas,Único,,0.35,28.0,20.0,5.0,sim,sim
+362744485,1621440986,Bolsa com Necessaire de Couro,Acessórios > Bolsas,Acessórios | Acessórios > Bolsas,Único,,0.5,28.0,30.0,10.0,sim,sim
+362744498,1582628820,Bermuda Sarja,Roupas > Shorts,Roupas | Roupas > Shorts,46,,0.25,25.0,30.0,3.0,sim,sim
+362744506,1621440874,Echarpe Estampada,Acessórios,Acessórios,Único,,0.3,25.0,30.0,2.0,sim,sim
+362744510,1582628856,Túnica Lucidez,Roupas > Vestidos,Roupas | Roupas > Vestidos,G,,0.3,25.0,30.0,2.0,sim,sim
+362744519,1582628872,Saia Lucidez,Roupas > Saias,Roupas | Roupas > Saias,GG,,0.3,25.0,30.0,2.0,sim,sim
+362744529,1582628882,Vestido Alfred Ângelo,Roupas > Vestidos > Festa,Roupas | Roupas > Vestidos | Roupas > Vestidos > Festa,XG,,0.8,30.0,40.0,5.0,sim,sim
+362744536,1583268262,Vestido Rosa Miranda,Roupas > Vestidos,Roupas | Roupas > Vestidos,GG,,0.4,25.0,35.0,3.0,sim,sim
+362744543,1582628918,Vestido Póa Leeloo,Roupas > Vestidos > Festa,Roupas | Roupas > Vestidos | Roupas > Vestidos > Festa,44,,0.3,20.0,25.0,2.0,sim,sim
+362744551,1582628940,Vestido Assimétrico Lucidez estampa zebra,Roupas > Vestidos > Festa,Roupas | Roupas > Vestidos | Roupas > Vestidos > Festa,GG,,0.5,30.0,25.0,3.0,sim,sim
+362744556,1582628945,Blusa Italiana Sagimar,Roupas > Blusas,Roupas | Roupas > Blusas,P,,0.15,25.0,30.0,2.0,sim,sim
+362744564,1582628954,Top Lizie Crepe,Roupas > Top,Roupas | Roupas > Top,G,,0.15,20.0,25.0,3.0,sim,sim
+362744573,1582628970,Saia Lucidez,Roupas > Saias,Roupas | Roupas > Saias,GG,,0.3,25.0,30.0,3.0,sim,sim
+362744580,1582628992,Vestido Quadriculado Leeloo,Roupas > Vestidos,Roupas | Roupas > Vestidos,44,,0.4,25.0,30.0,2.0,sim,sim
+362744587,1582629007,Vestido de Festa de Tafetá de Seda,Roupas > Vestidos > Festa,Roupas | Roupas > Vestidos | Roupas > Vestidos > Festa,G,,0.5,30.0,40.0,5.0,sim,sim
+362744593,1582629013,Vestido Transpassado Lucidez,Roupas > Vestidos,Roupas | Roupas > Vestidos,GG,,0.4,25.0,30.0,2.0,sim,sim
+362744598,1582983800,Calça Lucidez,Roupas > Calças,Roupas | Roupas > Calças,GG,,0.3,25.0,20.0,3.0,sim,sim
+362744610,1582629041,Calça Track & Field,Roupas > Calças,Roupas | Roupas > Calças | Roupas > Gym,G,,0.3,20.0,25.0,2.0,sim,sim
+362744614,1582629044,Vestido de Seda Márcia Torres,Roupas > Vestidos > Festa,Roupas | Roupas > Vestidos | Roupas > Vestidos > Festa,48,,0.3,25.0,35.0,5.0,sim,sim
+362744620,1582629052,Vestido Chemise Rosa Miranda,Roupas > Vestidos,Roupas | Roupas > Vestidos,G,,0.3,20.0,25.0,2.0,sim,sim
+362744632,1582629073,Calça Jeans Tommy Hilfiger Reta,Roupas > Calças,Roupas | Roupas > Calças | Roupas > Jeans,44,,0.5,25.0,30.0,3.0,sim,sim
+362744637,1582629104,Vestido Ombro Só com Babados,Roupas > Vestidos > Festa,Roupas | Roupas > Vestidos | Roupas > Vestidos > Festa,GG,,0.45,25.0,35.0,3.0,sim,sim
+362744645,1582629121,Vestido de Ombro Só Linho Leeloo,Roupas > Vestidos > Festa,Roupas | Roupas > Vestidos | Roupas > Vestidos > Festa,44,,0.35,20.0,30.0,2.5,sim,sim
+362744651,1582629147,Adidas Tokyo Low Top,Calçados > Tênis,Calçados | Calçados > Tênis,41,,0.9,20.0,12.0,30.0,sim,sim
+362744668,1621440738,Bolsa Lorena Triangle Schutz,Acessórios > Bolsas,Acessórios | Acessórios > Bolsas,Único,,0.75,25.0,18.0,10.0,sim,sim
+362744675,1582629186,Bermuda Benetton,Roupas > Shorts,Roupas | Roupas > Shorts,M,,0.3,20.0,25.0,2.0,sim,sim
+362744683,1621440627,Bolsa Grande Schutz,Acessórios > Bolsas,Acessórios | Acessórios > Bolsas,Único,,1.2,40.0,30.0,15.0,sim,sim
+362744695,1582629207,Vestido Lucidez pesponto,Roupas > Vestidos > Festa,Roupas | Roupas > Vestidos | Roupas > Vestidos > Festa,42,,0.35,25.0,35.0,3.0,sim,sim
+362744704,1582629239,Sandália Arezzo Couro,Calçados > Sandálias,Calçados | Calçados > Sandálias,40,,0.5,20.0,10.0,30.0,sim,sim
+362744714,1582678990,Scarpin Modelo Ariana Low,Calçados,Calçados,40,,0.8,20.0,10.0,28.0,sim,sim
+362744723,1582629279,Adidas Grand Court,Calçados > Tênis,Calçados | Calçados > Tênis,38,,0.9,20.0,12.0,32.0,sim,sim
+362744730,1582629289,Vestido TH,Roupas > Vestidos > Festa,Roupas | Roupas > Vestidos | Roupas > Vestidos > Festa,M,com fornecedor,0.5,25.0,35.0,3.0,sim,sim
+362744742,1582629311,Chuteira Futsal Adidas Predator,Calçados > Tênis,Calçados | Calçados > Tênis,41,,0.8,20.0,12.0,30.0,sim,sim
+362744754,1582629347,Sandália Kaycee Schutz Couro,Calçados > Sandálias,Calçados | Calçados > Sandálias,40,,0.8,20.0,12.0,30.0,sim,sim
+362853794,1582933501,Saída de Praia rosa poá,Roupas > Moda praia > Saída de praia,Roupas | Roupas > Moda praia | Roupas > Moda praia > Saída de praia,ÚNICO,,0.2,25.0,30.0,2.0,sim,sim
+362858891,1582955610,calça jeans levis destroyed,Roupas > Calças,Roupas | Roupas > Calças | Roupas > Jeans,29USA,,0.5,25.0,30.0,3.0,sim,sim
+362916588,1583138116,Calça Hering Cadarço Rosa,Roupas > Calças,Roupas | Roupas > Calças,38,,0.4,25.0,30.0,2.0,sim,sim
+362918047,1583142242,Calça Jeans Zara,Roupas > Calças,Roupas | Roupas > Calças | Roupas > Jeans,38,,0.5,25.0,30.0,2.0,sim,sim
+362919270,1583145839,Calça Cardaço Zinzane,Roupas > Calças,Roupas | Roupas > Calças,M,,0.3,25.0,30.0,2.0,sim,sim
+362921700,1583152735,Calça Animale,Roupas > Calças,Roupas | Roupas > Calças,44,,0.4,20.0,30.0,2.0,sim,sim
+362922671,1583155514,Calça Vix,Roupas > Calças,Roupas | Roupas > Calças,P,,0.3,20.0,25.0,2.0,sim,sim
+362933640,1583183891,Calça Underarmour,Roupas > Calças,Roupas | Roupas > Calças | Roupas > Gym,P,,0.3,25.0,30.0,3.0,sim,sim
+363107331,1587461053,Vestido midi sem mangas Lucidez,Roupas > Vestidos,Roupas | Roupas > Vestidos,TU (TAMANHO ÚNICO),,0.3,20.0,25.0,2.0,sim,sim
+363108679,1587457280,Blusa com Mickey brilhoso,Roupas > Blusas,Roupas | Roupas > Blusas,M,,0.18,25.0,30.0,2.0,sim,sim
+363110047,1587550413,Saída de praia Farm,Roupas > Moda praia > Saída de praia,Roupas | Roupas > Moda praia | Roupas > Moda praia > Saída de praia | Roupas > Vestidos,P,,0.3,25.0,30.0,2.0,sim,sim
+363435594,1584772466,Macacão preto Michael Kors,Roupas > Macacào,Roupas | Roupas > Macacào,P,,0.3,25.0,35.0,2.0,sim,sim
+363441656,1584788948,Camisa Alfaiataria Dudalina,Roupas > Blusas,Roupas | Roupas > Blusas,P,,0.3,25.0,30.0,2.0,sim,sim
+363443511,1584793785,Vestido midi Banana Republic,Roupas > Vestidos,Roupas | Roupas > Vestidos,P,,0.3,25.0,30.0,2.0,sim,sim
+363640464,1585434393,Vestido Galeria Tricot,Roupas > Moda praia,Roupas | Roupas > Moda praia | Roupas > Vestidos,ÚNICO,,0.3,20.0,25.0,2.0,sim,sim
+363640497,1585434458,Saída de Praia Longa Animale,Roupas > Moda praia > Saída de praia,Roupas | Roupas > Moda praia | Roupas > Moda praia > Saída de praia,M,,0.2,20.0,25.0,2.0,sim,sim
+363640511,1585434498,Saída de Praia Bossa Nossa,Roupas > Moda praia > Saída de praia,Roupas | Roupas > Moda praia | Roupas > Moda praia > Saída de praia,P,,0.2,20.0,25.0,2.0,sim,sim
+363640525,1585434545,Top Farm com Laço,Roupas > Top,Roupas | Roupas > Top | Roupas > Croppeds,P,,0.15,20.0,25.0,2.0,sim,sim
+363640540,1585434611,Blusa Babados Ágatha,Roupas > Blusas,Roupas | Roupas > Blusas,36,,0.15,20.0,25.0,2.0,sim,sim
+363640552,1585434654,Saia de Tricot Bege,Roupas > Saias,Roupas | Roupas > Saias,P,,0.4,20.0,25.0,2.0,sim,sim
+366644536,1594318951,Vestido Midi Maria Filó,Roupas > Vestidos,Roupas | Roupas > Vestidos,G,,0.3,25.0,35.0,2.0,sim,sim
+366644575,1594319129,Saida de Praia Galeria Tricot,Roupas > Moda praia > Saída de praia,Roupas | Roupas > Moda praia | Roupas > Moda praia > Saída de praia,ÚNICO,,0.3,25.0,30.0,2.0,sim,sim
+366644630,1594319261,Blusa Tricot Bege Talita Kume,Roupas > Blusas,Roupas | Roupas > Blusas,ÚNICO,,0.3,25.0,30.0,2.0,sim,sim
+366644668,1594319380,Vestido Tommy Hilfiger,Roupas > Moda praia,Roupas | Roupas > Moda praia | Roupas > Vestidos,M,,0.3,20.0,25.0,2.0,sim,sim
+366644724,1594319536,Blusa Mary Zaide Algodão,Roupas > Blusas,Roupas | Roupas > Blusas,P,,0.25,20.0,25.0,2.0,sim,sim
+366644765,1594319613,Blusa de Seda Banana Republic,Roupas > Blusas,Roupas | Roupas > Blusas,G,,0.15,25.0,30.0,2.0,sim,sim
+366644802,1594319754,Blusa Totem,Roupas > Blusas,Roupas | Roupas > Blusas,PP,,0.15,20.0,25.0,2.0,sim,sim
+366644827,1594319820,Blusa Bata Moda Mania Extra,Roupas > Blusas,Roupas | Roupas > Blusas,P,,0.15,20.0,25.0,2.0,sim,sim
+366644846,1621439700,Bolsa de Praia,Acessórios > Bolsas,Acessórios | Acessórios > Bolsas,Único,,0.3,40.0,30.0,15.0,sim,sim
+366644866,1621415208,Bolsa Natural Elegante,Acessórios > Bolsas,Acessórios | Acessórios > Bolsas,Único,,0.5,40.0,30.0,15.0,sim,sim
+366644899,1594320029,Vestido Lucidez,Roupas > Vestidos > Festa,Roupas | Roupas > Vestidos | Roupas > Vestidos > Festa,M,,0.3,25.0,35.0,2.0,sim,sim
+366644944,1594320231,Vestido Festa Sacada,Roupas > Vestidos > Festa,Roupas | Roupas > Vestidos | Roupas > Vestidos > Festa,M,,0.5,25.0,35.0,3.0,sim,sim
+366644969,1594320393,Short Linho Azul Lidiay,Roupas > Shorts,Roupas | Roupas > Shorts | Roupas > linho,M,,0.25,20.0,25.0,2.0,sim,sim
+366644997,1594320507,Camisa de Linho Zara,Roupas > Blusas,Roupas | Roupas > Blusas | Roupas > linho,M,,0.25,25.0,30.0,2.0,sim,sim
+366645023,1594320577,Vestido Brooksfield,Roupas > Vestidos,Roupas | Roupas > Vestidos,M,,0.3,25.0,30.0,2.0,sim,sim
+366645054,1594320697,Jaqueta Jeans Plata Latina,Roupas > Jeans,Roupas | Roupas > Jeans | Roupas > Casacos,M,,0.5,25.0,30.0,3.0,sim,sim
+366645075,1594320775,Vestido Ágatha,Roupas > Vestidos > Festa,Roupas | Roupas > Vestidos | Roupas > Vestidos > Festa,M,,0.35,20.0,25.0,3.0,sim,sim
+366645136,1594320975,Short Shop 126,Roupas > Shorts,Roupas | Roupas > Shorts,P,,0.2,20.0,25.0,2.0,sim,sim
+366645193,1594321233,Conjunto NXT LVL,Roupas > Calças,Roupas | Roupas > Calças | Roupas > Blusas,38,,0.5,25.0,30.0,3.0,sim,sim
+366645248,1594321438,Vestido Assimétrico David Meister,Roupas > Vestidos > Festa,Roupas | Roupas > Vestidos | Roupas > Vestidos > Festa,36,,0.3,20.0,25.0,2.0,sim,sim
+366645285,1594321579,Vestido Zara,Roupas > Vestidos,Roupas | Roupas > Vestidos,P,,0.3,20.0,25.0,2.0,sim,sim
+366645309,1594321668,Macacão de Ginástica Anafé,Roupas > Gym,Roupas | Roupas > Gym | Roupas > Macacào,P,,0.3,20.0,25.0,2.0,sim,sim
+366645346,1594321914,Vestido de Seda Animale,Roupas > Vestidos > Festa,Roupas | Roupas > Vestidos | Roupas > Vestidos > Festa,42,,0.3,25.0,35.0,2.0,sim,sim
+366645390,1594322195,Sandália Gucci Horsebit,Calçados > Sandálias,Calçados | Calçados > Sandálias,37,,0.8,18.0,10.0,28.0,sim,sim
+366645435,1594322492,Sandália Gucci Horsebit,Calçados > Sandálias,Calçados | Calçados > Sandálias | Acessórios,37,,0.8,20.0,10.0,30.0,sim,sim
+366645473,1594322655,Sapatilha Valentino Garavani Rockstud,Calçados,Calçados,37,,0.5,20.0,10.0,30.0,sim,sim
+366645510,1594322825,Vestido Lilly Sarti,Roupas > Vestidos > Festa,Roupas | Roupas > Vestidos | Roupas > Vestidos > Festa,P,,0.3,25.0,35.0,2.0,sim,sim
+366645532,1594322951,Casaqueto Franjas Ateen,Roupas > Casacos,Roupas | Roupas > Casacos,PP,,0.3,25.0,30.0,3.0,sim,sim
+366645557,1594323110,Saia de Seda Animal Print Bobo,Roupas > Saias,Roupas | Roupas > Saias,P,,0.2,25.0,30.0,2.0,sim,sim
+366645586,1594323191,Blusa Lafort,Roupas > Blusas,Roupas | Roupas > Blusas,PP,,0.15,20.0,25.0,2.0,sim,sim
+366645633,1594323324,Tênis Versace,Calçados > Tênis,Calçados | Calçados > Tênis,37,,1.2,25.0,15.0,35.0,sim,sim
+366645681,1594323546,Top Aquamar,Roupas > Top,Roupas | Roupas > Top,M,,0.15,20.0,25.0,2.0,sim,sim
+366645707,1594323670,Blusa de Manga Comprida Marfinno,Roupas > Blusas,Roupas | Roupas > Blusas,M,,0.3,20.0,25.0,2.0,sim,sim
+366645729,1594323772,Vestido Onça Deep,Roupas > Vestidos > Festa,Roupas | Roupas > Vestidos | Roupas > Vestidos > Festa,M,,0.3,25.0,35.0,3.0,sim,sim
+366645767,1594323914,Sapato Arezzo,Calçados,Calçados,,,1.0,20.0,12.0,32.0,sim,sim
+366645794,1594324007,Sandália Donna Lira,Calçados > Sandálias,Calçados | Calçados > Sandálias,38,,0.8,20.0,12.0,30.0,sim,sim
+366645817,1594324108,Pelerine de Tricô My Place,(sem categoria),,M,,0.4,25.0,30.0,2.0,sim,sim
+366645838,1594324245,Vestido Aquamar,Roupas > Vestidos > Festa,Roupas | Roupas > Vestidos | Roupas > Vestidos > Festa,G,,0.3,20.0,25.0,2.0,sim,sim
+366645864,1594324366,Vestido Zara,Roupas > Vestidos > Festa,Roupas | Roupas > Vestidos | Roupas > Vestidos > Festa,P,,0.3,25.0,30.0,2.0,sim,sim
+366645900,1594324505,Vestido Zara,(sem categoria),,M,,0.5,25.0,35.0,3.0,sim,sim
+366645940,1594324635,Sandália Melissa,Calçados > Sandálias,Calçados | Calçados > Sandálias,36,,0.4,20.0,10.0,30.0,sim,sim
+366645976,1594324791,Linda Sapatilha Not a Shoe,Calçados,Calçados,35,,0.3,8.0,6.0,12.0,sim,sim
+366646005,1594324881,Calça Rosa Tie Dye NV + Triya,Roupas > Calças,Roupas | Roupas > Calças,32,,0.35,25.0,30.0,2.0,sim,sim
+366646034,1594325015,Blusa Colcci com Franjas,Roupas > Blusas,Roupas | Roupas > Blusas,,,0.25,25.0,30.0,2.0,sim,sim
+366646063,1594325124,Vestido Maria Emília,Roupas > Vestidos,Roupas | Roupas > Vestidos,G,,0.3,25.0,35.0,2.0,sim,sim
+366646089,1594325255,Calça Francesca,Roupas > Calças,Roupas | Roupas > Calças,36,,0.4,25.0,35.0,2.0,sim,sim
+366646117,1594325371,Saia de Tricot Aquamar,Roupas > Saias,Roupas | Roupas > Saias,M,,0.3,25.0,30.0,2.0,sim,sim
+366646147,1594325480,Vestido Festa Helvana Guerreiro,Roupas > Vestidos > Festa,Roupas | Roupas > Vestidos | Roupas > Vestidos > Festa,M,,0.5,25.0,35.0,3.0,sim,sim
+366646165,1594325533,Saia Moletom Comfy Conde Confecção,Roupas > Saias,Roupas | Roupas > Saias,M,,0.5,25.0,30.0,3.0,sim,sim
+366646182,1594325624,Vestido Malha Zara Meia Manga Longuete,Roupas > Vestidos,Roupas | Roupas > Vestidos,M,,0.4,20.0,25.0,2.0,sim,sim
+366646206,1594325692,Colete de Pele com Tricot Espaço Fashion,Roupas > Casacos,Roupas | Roupas > Casacos,ÚNICO,,0.5,25.0,30.0,3.0,sim,sim
+366646257,1594325920,Vestido Malha Cortelle,Roupas > Vestidos,Roupas | Roupas > Vestidos,M,,0.3,20.0,25.0,2.0,sim,sim
+366646277,1594325995,Saia Midi de babados Celini,Roupas > Saias,Roupas | Roupas > Saias,P,,0.3,25.0,30.0,3.0,sim,sim
+366646313,1594326082,Blusa Leeloo,(sem categoria),,P,,0.15,20.0,25.0,2.0,sim,sim
+366646343,1594326171,Vestido Malta Store,Roupas > Vestidos,Roupas | Roupas > Vestidos,M,,0.4,25.0,35.0,3.0,sim,sim
+366646378,1594326285,Conjunto de Tricô Myah,Roupas > Shorts,Roupas | Roupas > Shorts | Roupas > Blusas,P,,0.4,30.0,25.0,4.0,sim,sim
+366646422,1594326396,Calça Jeans Leeloo,Roupas > Calças,Roupas | Roupas > Calças | Roupas > Jeans,36,,0.5,25.0,35.0,3.0,sim,sim
+366646458,1594326507,Macacão Gym Parceria do Corpo,Roupas > Gym,Roupas | Roupas > Gym | Roupas > Macacào,P,,0.25,20.0,25.0,2.0,sim,sim
+366646496,1594326713,Vestido Haight,Roupas > Vestidos > Festa,Roupas | Roupas > Vestidos | Roupas > Vestidos > Festa,P,,0.35,20.0,25.0,2.0,sim,sim
+366646523,1594326790,Casaco de Lã Batida Zara,Roupas > Casacos,Roupas | Roupas > Casacos,,,1.2,30.0,40.0,5.0,sim,sim
+366646572,1594327050,Conjunto Moletom Track And Field,Roupas > Gym,Roupas | Roupas > Gym,P,,0.6,25.0,30.0,4.0,sim,sim
+366646599,1594327180,Chemise Jeans Sjbay,Roupas > Vestidos,Roupas | Roupas > Vestidos | Roupas > Jeans,G,,0.35,25.0,30.0,3.0,sim,sim
+366646624,1594327314,Calça City,Roupas > Calças,Roupas | Roupas > Calças | Roupas > Jeans,42,,0.5,25.0,30.0,2.0,sim,sim
+366646652,1594327422,Colete Longo Branco Zara,Roupas > Casacos,Roupas | Roupas > Casacos,PP,,0.35,25.0,35.0,3.0,sim,sim
+366646683,1594327499,Bata Maria Filo,Roupas > Jeans,Roupas | Roupas > Jeans | Roupas > Blusas,P,,0.3,20.0,25.0,2.0,sim,sim
+366646706,1594327558,Calça Veludo Rose Maria Filo,Roupas > Calças,Roupas | Roupas > Calças,38,,0.5,25.0,35.0,3.0,sim,sim
+366646740,1594327679,Calça Jeans Reserva,Roupas > Calças,Roupas | Roupas > Calças | Roupas > Jeans,38,,0.5,25.0,30.0,2.0,sim,sim
+366646766,1594327751,Conjunto Zara Linho,Roupas > Shorts,Roupas | Roupas > Shorts | Roupas > linho,P,,0.3,25.0,20.0,2.0,sim,sim
+366646785,1594327892,Saia Tricot Gavia,Roupas > Saias,Roupas | Roupas > Saias,P,,0.3,20.0,25.0,2.0,sim,sim
+366646812,1594327983,Conjunto Cavendish,Roupas > Moda praia,Roupas | Roupas > Moda praia | Roupas > Vestidos,P,,0.3,25.0,20.0,3.0,sim,sim
+366646832,1594328046,Saia Transpassada Farm,Roupas > Saias,Roupas | Roupas > Saias,P,,0.3,25.0,30.0,2.0,sim,sim
+366646878,1594328272,Vestido Animale Transpassado,(sem categoria),,42,,0.3,25.0,35.0,2.0,sim,sim
+366646911,1594328372,Bata Bola Tule Maria Filo,Roupas > Jeans,Roupas | Roupas > Jeans | Roupas > Blusas,P,,0.15,25.0,30.0,2.0,sim,sim
+366646940,1594328453,Short de Linho Dress To,Roupas > Moda praia,Roupas | Roupas > Moda praia | Roupas > Shorts | Roupas > linho,M,,0.15,20.0,25.0,2.0,sim,sim
+366835776,1594947133,Calça Jeans Envernizada All Saints,Roupas > Calças,Roupas | Roupas > Calças | Roupas > Jeans,38,,0.5,20.0,25.0,3.0,sim,sim
+366851354,1594996039,Vestido Le Lis Blanc,Roupas > Vestidos > Festa,Roupas | Roupas > Vestidos | Roupas > Vestidos > Festa,M,,0.35,20.0,25.0,2.0,sim,sim
+366852103,1594992422,Calça Maria Filó,Roupas > Calças,Roupas | Roupas > Calças,,,0.4,25.0,35.0,3.0,sim,sim
+366853105,1594994738,Calça Jeans Maria Filó,Roupas > Calças,Roupas | Roupas > Calças,38,,0.5,25.0,30.0,3.0,sim,sim
+366856108,1595002260,Cardigã Yogini,Roupas > Calças,Roupas | Roupas > Calças | Roupas > Blazers,M,,1.2,30.0,25.0,4.0,sim,sim
+366857765,1595006197,Vestido Le Lis Blanc,Roupas > Vestidos > Festa,Roupas | Roupas > Vestidos | Roupas > Vestidos > Festa,P,,0.35,25.0,30.0,2.0,sim,sim
+366860657,1595011887,Saia Tricot Acquamar,Roupas > Moda praia > Saída de praia,Roupas | Roupas > Moda praia | Roupas > Moda praia > Saída de praia | Roupas > Saias,,,0.3,20.0,25.0,2.0,sim,sim
+367253969,1596197962,Vestido Michael Kors,Roupas > Vestidos > Festa,Roupas | Roupas > Vestidos | Roupas > Vestidos > Festa,P,,0.3,25.0,35.0,2.0,sim,sim
+368641166,1600960696,Vestido Farm,Roupas > Vestidos,Roupas | Roupas > Vestidos,M,,0.2,20.0,25.0,2.0,sim,sim
+368641172,1600960729,Calça de Veludo Maria Filó,Roupas > Calças,Roupas | Roupas > Calças,38,,0.5,25.0,35.0,2.0,sim,sim
+368641178,1600960758,Casaco Cropped Fila,Roupas > Croppeds,Roupas | Roupas > Croppeds | Roupas > Casacos,M,,0.4,25.0,30.0,2.0,sim,sim
+368641180,1600960776,Colete Zara,Roupas,Roupas,P,,0.35,25.0,30.0,3.0,sim,sim
+368641184,1600960801,Vestido Aquamar,Roupas > Vestidos,Roupas | Roupas > Vestidos,M,,0.25,25.0,35.0,3.0,sim,sim
+368641190,1600960831,Cropped Floral Dress To,Roupas > Croppeds,Roupas | Roupas > Croppeds | Roupas > Blusas,P,,0.15,20.0,25.0,2.0,sim,sim
+368641197,1600960860,Sapatilha Larroudé,Calçados,Calçados,38,,0.5,20.0,7.0,12.0,sim,sim
+368641200,1600960880,Vestido Transpassado Animale,Roupas > Moda praia,Roupas | Roupas > Moda praia | Roupas > Vestidos,42,,0.3,20.0,25.0,2.0,sim,sim
+368641205,1600960919,Camisa Manga Longa de Malha Calvin Klein,Roupas > Blusas,Roupas | Roupas > Blusas,G,,0.25,25.0,30.0,3.0,sim,sim
+368641209,1600960972,Short Adidas,Roupas > Gym,Roupas | Roupas > Gym | Roupas > Shorts,G,,0.15,20.0,25.0,2.0,sim,sim
+368641215,1600960992,Calça Pantalona de Linho Lizie,Roupas > Calças,Roupas | Roupas > Calças | Roupas > linho,42,,0.3,25.0,30.0,2.0,sim,sim
+368641219,1600961013,Vestido Farm,Roupas > Vestidos,Roupas | Roupas > Vestidos,G,,0.3,25.0,35.0,3.0,sim,sim
+368641225,1600961048,Calça Pantalona Farm,Roupas > Calças,Roupas | Roupas > Calças,M,,0.35,20.0,25.0,2.0,sim,sim
+368641227,1600961070,Calça Shoulder Cargo,Roupas > Calças,Roupas | Roupas > Calças,44,,0.4,25.0,30.0,3.0,sim,sim
+368641232,1600961104,Calça Adidas com Bolso de Zíper,Roupas > Calças,Roupas | Roupas > Calças | Roupas > Gym,GG,,0.4,25.0,35.0,2.0,sim,sim
+368641238,1600961127,Vestido Farm Floral com Cadarço,Roupas > Vestidos,Roupas | Roupas > Vestidos,G,,0.3,25.0,30.0,2.0,sim,sim
+368641240,1600961144,Blusa Victoria’s Secret,Roupas > Blusas,Roupas | Roupas > Blusas,GG,,0.35,30.0,25.0,2.0,sim,sim
+368641244,1600961188,Vestido Farm de Alcinha Sanfonado,Roupas > Vestidos,Roupas | Roupas > Vestidos,G,,0.3,25.0,35.0,2.0,sim,sim
+368641249,1600961220,Vestido de Tule Maria Filó,Roupas > Moda praia,Roupas | Roupas > Moda praia | Roupas > Vestidos,G,,0.25,25.0,35.0,3.0,sim,sim
+368641378,1600962134,Conjunto moletom quadriculado Farm,Roupas > Gym,Roupas | Roupas > Gym | Roupas > Shorts | Roupas > Blusas,,,0.45,25.0,20.0,3.0,sim,sim
+369428960,1603968382,Macacão Shop 126,Roupas > Vestidos > Festa,Roupas | Roupas > Vestidos | Roupas > Vestidos > Festa | Roupas > Macacào,M,,,,,,não,sim
+369435098,1603988173,Vestido Animale de seda,Roupas > Vestidos > Festa,Roupas | Roupas > Vestidos | Roupas > Vestidos > Festa,M,,,,,,não,sim
+369455581,1604059325,Saia W-key,Roupas > Saias,Roupas | Roupas > Saias,P,,,,,,não,sim
+369457306,1604065403,Vestido Tianase com estampa de sereia,Roupas > Vestidos,Roupas | Roupas > Vestidos,P,,,,,,não,sim
+369464005,1604088034,Macacão Fabulous Agilitá de veludo,Roupas > Vestidos > Festa,Roupas | Roupas > Vestidos | Roupas > Vestidos > Festa | Roupas > Macacào,P,,0.5,25.0,30.0,3.0,sim,sim
+369466994,1604097846,Maiô Florido Cia Marítima,Roupas > Moda praia,Roupas | Roupas > Moda praia,,,0.2,15.0,20.0,2.5,sim,sim
+369471161,1604108870,Maiô Adriana Degreas,Roupas > Moda praia,Roupas | Roupas > Moda praia,M,,0.2,20.0,25.0,2.0,sim,sim
+369473363,1604114235,Saída de praia Labellamafia com estampa de onça,Roupas > Moda praia,Roupas | Roupas > Moda praia,M,,0.2,20.0,25.0,2.0,sim,sim
+369477465,1604124355,Saia de tricot dourada brilhosa Vera Tricot com etiqueta,Roupas > Vestidos > Festa,Roupas | Roupas > Vestidos | Roupas > Vestidos > Festa | Roupas > Saias,TAMANHO ÚNICO,,0.4,25.0,30.0,3.0,sim,sim
+369818075,1605429987,Óculos Swarovski,Acessórios > Óculos,Acessórios | Acessórios > Óculos,Preto,,0.15,17.0,5.0,7.0,sim,sim
+369885250,1605753508,Vestido Farm Vazado,(sem categoria),,G,,,,,,não,sim
+369885298,1605753562,Body Mormaii,Roupas > Gym,Roupas | Roupas > Gym,,,0.15,20.0,25.0,2.0,sim,sim
+369885315,1605753581,Camiseta Cropped Mormaii Essentials,Roupas > Gym,Roupas | Roupas > Gym | Roupas > Croppeds,,,0.15,20.0,25.0,2.0,sim,sim
+369885327,1605753601,Camisa Manga Comprida Fila com Capuz,Roupas > Gym,Roupas | Roupas > Gym | Roupas > Blusas,,,0.35,25.0,30.0,3.0,sim,sim
+369885341,1621414847,Vestido Dourado Mormaii,Roupas > Vestidos > Festa,Roupas | Roupas > Vestidos | Roupas > Vestidos > Festa,Único,,0.3,20.0,25.0,2.0,sim,sim
+369885357,1605753655,Macacão CCM,Roupas > Gym,Roupas | Roupas > Gym | Roupas > Macacào,P,,0.25,20.0,30.0,2.0,sim,sim
+369885381,1605753718,Macacão CCM,Roupas > Gym,Roupas | Roupas > Gym,P,,0.3,25.0,30.0,2.0,sim,sim
+369885406,1605753748,Vestido de Viscose Zinzane,(sem categoria),,M,,,,,,não,sim
+369885425,1605753826,Vestido Zen,Roupas > Vestidos > Festa,Roupas | Roupas > Vestidos | Roupas > Vestidos > Festa,M,,0.3,20.0,25.0,2.0,sim,sim
+369885446,1605753986,Conjunto Animale,Roupas > Blusas,Roupas | Roupas > Blusas,42,,0.3,25.0,30.0,3.0,sim,sim
+369885463,1605754014,Top Hope,Roupas > Gym,Roupas | Roupas > Gym | Roupas > Top,G,,0.2,20.0,25.0,2.0,sim,sim
+369885482,1605754057,Blazer Lavanda NV,(sem categoria),,M,,,,,,não,sim
+369885500,1605754089,Veste Vestido Água de Côco,Roupas > Vestidos,Roupas | Roupas > Vestidos,P,,0.3,25.0,30.0,3.0,sim,sim
+369885521,1605754166,Blusa de Renda Veste,Roupas > Blusas,Roupas | Roupas > Blusas,PP,,0.15,20.0,25.0,2.0,sim,sim
+369885544,1621410554,Relógio Swatch Irony Chronograph Swiss Made,Acessórios > Relógio,Acessórios | Acessórios > Relógio,Único,,0.2,10.0,6.0,10.0,sim,sim
+369885577,1621414771,Relógio Michael Kors Mk5798,Acessórios > Relógio,Acessórios | Acessórios > Relógio,Único,,0.15,8.0,5.0,8.0,sim,sim
+369885617,1605754354,Saia NV 38,Roupas > Saias,Roupas | Roupas > Saias,TAM,,0.3,25.0,30.0,2.0,sim,sim
+369885649,1605754408,Calça Corsário Dolce & Gabbana,Roupas > Calças,Roupas | Roupas > Calças,ITALIANO,,0.4,25.0,20.0,3.0,sim,sim
+369885771,1605754627,Calça Jeans Reta,Roupas > Calças,Roupas | Roupas > Calças | Roupas > Jeans,EUA,,0.5,25.0,20.0,3.0,sim,sim
+369885796,1605754675,Vestido Midi com Mangas em Tricoline Patbo NOVO Nunca Usado COM Etiqueta,(sem categoria),,44,,0.5,25.0,30.0,3.0,sim,sim
+369885843,1605754812,Macaquinho Jeans Zara,Roupas > Macaquinho,Roupas | Roupas > Macaquinho,G,,,,,,não,sim
+369885871,1608500065,Vestido Iorane de linho,Roupas > Vestidos,Roupas | Roupas > Vestidos,G,,0.35,25.0,35.0,2.0,sim,sim
+369885901,1605754967,Macaquinho Frente Única Rendado Guess,Roupas > Macaquinho,Roupas | Roupas > Macaquinho,US,,0.3,25.0,30.0,2.0,sim,sim
+369885929,1605755031,Macacão MNG,Roupas > Macacào,Roupas | Roupas > Macacào,G,,0.5,25.0,30.0,3.0,sim,sim
+369885952,1605755105,Vestido Estampado em Organza Zara,Roupas > Vestidos > Festa,Roupas | Roupas > Vestidos | Roupas > Vestidos > Festa | Acessórios | Acessórios > Bolsas,G,,0.3,25.0,30.0,2.0,sim,sim
+369885973,1605755180,Top Zara,Roupas > Top,Roupas | Roupas > Top | Roupas > Blazers,M,,0.3,25.0,20.0,2.0,sim,sim
+370827488,1621414663,Bolsa Louis Vuitton Hobo Galliera Monogram,Acessórios > Bolsas,Acessórios | Acessórios > Bolsas,Único,,0.8,35.0,25.0,10.0,sim,sim
+373082392,1615256420,Calça Gym Mormaii,Roupas > Calças,Roupas | Roupas > Calças | Roupas > Gym,P,,0.3,20.0,25.0,2.5,sim,sim
+373082411,1615256468,Calça Legging Gym Mormaii,Roupas > Calças,Roupas | Roupas > Calças | Roupas > Gym,P,,0.25,20.0,25.0,2.0,sim,sim
+373082423,1615256516,Calça Legging Rosa Vestem,(sem categoria),,M,,0.3,20.0,25.0,2.0,sim,sim
+373082440,1615256533,Short Saia Vestem,Roupas > Shorts,Roupas | Roupas > Shorts | Roupas > Saias,M,,0.2,20.0,25.0,2.0,sim,sim
+373082459,1615256605,Calça Mormaii COM Etiqueta Nunca Usada,(sem categoria),,P,,,,,,não,sim
+373082489,1615256663,Short Off White Vestem,Roupas > Gym,Roupas | Roupas > Gym | Roupas > Shorts,M,,,,,,não,sim
+373082510,1615256713,Top Vestem Frente Única Proteção UV,Roupas > Gym,Roupas | Roupas > Gym | Roupas > Top,,,0.15,20.0,25.0,2.0,sim,sim
+373082544,1615256814,Bermuda Mormaii com Bolsinhos,(sem categoria),,P,,,,,,não,sim
+373082571,1615256874,Bermuda Mormaii com Bolsinhos,Roupas > Gym,Roupas | Roupas > Gym,P,,0.2,20.0,25.0,2.0,sim,sim
+373082594,1615256923,Nike Air Azul com Textura Marcante,Calçados > Tênis,Calçados | Calçados > Tênis,38,,1.2,20.0,12.0,30.0,sim,sim
+373082637,1615257025,Tênis Guess com Estampa Monograma,Calçados > Tênis,Calçados | Calçados > Tênis,36,,,,,,não,sim
+373082738,1615257308,Vestido de Tricot,Roupas > Vestidos,Roupas | Roupas > Vestidos,M,,0.3,25.0,35.0,3.0,sim,sim
+373082770,1615257357,Macacão Farm,Roupas > Vestidos > Festa,Roupas | Roupas > Vestidos | Roupas > Vestidos > Festa | Roupas > Macacào,G,,0.5,25.0,30.0,3.0,sim,sim
+373082816,1615257445,Vestido Farm,Roupas > Vestidos,Roupas | Roupas > Vestidos,GG,,0.35,25.0,30.0,2.0,sim,sim
+373082854,1615257521,Vestido Farm,Roupas > Vestidos,Roupas | Roupas > Vestidos,G,,0.3,25.0,35.0,2.0,sim,sim
+373082895,1615257575,Mini Vestido Gucci,Roupas > Vestidos > Festa,Roupas | Roupas > Vestidos | Roupas > Vestidos > Festa,NA,,0.3,20.0,25.0,2.0,sim,sim
+373082944,1615257740,Short Living,Roupas > Gym,Roupas | Roupas > Gym | Roupas > Shorts,M,,0.15,20.0,25.0,1.0,sim,sim
+373082973,1615257875,Top Nike,Roupas > Gym,Roupas | Roupas > Gym | Roupas > Top,G,,0.15,20.0,15.0,2.0,sim,sim
+373082999,1615257981,Calça Jeans Levis,Roupas > Calças,Roupas | Roupas > Calças | Roupas > Jeans,EQUIVALENTE A 40,,0.5,25.0,30.0,3.0,sim,sim
+373083023,1615258019,Vestido Farm,Roupas > Gym,Roupas | Roupas > Gym | Roupas > Moda praia | Roupas > Vestidos,P,,0.3,20.0,25.0,3.0,sim,sim
+373083044,1615258050,Macacão Farm,Roupas > Macacào,Roupas | Roupas > Macacào,G,,,,,,não,sim
+373083069,1615258112,Calça Jeans Colcci,Roupas > Calças,Roupas | Roupas > Calças | Roupas > Jeans,38,,0.5,25.0,30.0,3.0,sim,sim
+373083093,1615258156,Vestido Farm,Roupas > Moda praia,Roupas | Roupas > Moda praia | Roupas > Vestidos,M,,0.3,20.0,25.0,2.0,sim,sim
+373083117,1615258205,Calça Track And Field,Roupas > Calças,Roupas | Roupas > Calças | Roupas > Gym,G,,0.25,25.0,30.0,2.0,sim,sim
+373083143,1615258298,Vestido Farm Vazado Estampado,Roupas > Vestidos,Roupas | Roupas > Vestidos,G,,0.35,25.0,30.0,3.0,sim,sim
+373083169,1621414602,Carteira Michael Kors,Acessórios > Bolsas,Acessórios | Acessórios > Bolsas,Único,,0.2,19.0,10.0,3.5,sim,sim
+373083206,1621414547,Carteira Michael Kors,Acessórios > Bolsas,Acessórios | Acessórios > Bolsas,Único,,0.25,19.0,11.0,3.0,sim,sim
+373083235,1621414483,Michael Kors Jet Set Charm,Acessórios > Bolsas,Acessórios | Acessórios > Bolsas,Único,,0.45,22.0,15.0,6.0,sim,sim
+373083591,1621414441,A Michael Kors Jet Set Logo,Acessórios > Bolsas,Acessórios | Acessórios > Bolsas,Único,,0.5,22.0,14.0,6.0,sim,sim
+373086554,1621414246,Mochila Tory Burch em Couro Azul Marinho,Acessórios > Bolsas,Acessórios | Acessórios > Bolsas,Único,,0.9,30.0,35.0,12.0,sim,sim
+373088588,1621410896,Bolsa Rafia,Acessórios > Bolsas,Acessórios | Acessórios > Bolsas,Único,,0.2,30.0,15.0,5.0,sim,sim
+373088750,1615258851,Papete Arezzo com Tarracha,Calçados > Sandálias,Calçados | Calçados > Sandálias,39,,0.5,20.0,10.0,30.0,sim,sim
+373088782,1615258921,Blusa Lizie,Roupas > Blusas,Roupas | Roupas > Blusas,G,,0.15,25.0,30.0,2.0,sim,sim
+373088796,1615258960,Poncho Renner,Roupas > Blusas,Roupas | Roupas > Blusas,ÚNICO,,0.3,25.0,30.0,3.0,sim,sim
+373088810,1615258991,Spencer,Roupas > Casacos,Roupas | Roupas > Casacos,P,,,,,,não,sim
+373088828,1615259027,Blusa Maria Filó,Roupas > Blusas,Roupas | Roupas > Blusas,P,,0.2,20.0,25.0,2.0,sim,sim
+373088844,1615259069,Vestido Side B,Roupas > Vestidos > Festa,Roupas | Roupas > Vestidos | Roupas > Vestidos > Festa,P,,0.3,20.0,30.0,2.0,sim,sim
+373088876,1615259160,Vestido de Tule com Bolinhas Ave Maria,(sem categoria),,,,,,,,não,não
+373088894,1615259196,Vestido com Tule Ave Maria,Roupas > Vestidos > Festa,Roupas | Roupas > Vestidos | Roupas > Vestidos > Festa,40,,0.3,25.0,35.0,3.0,sim,sim
+373088914,1615259258,Vestido Tubinho Lucidez,Roupas > Vestidos > Festa,Roupas | Roupas > Vestidos | Roupas > Vestidos > Festa,,,0.4,25.0,35.0,3.0,sim,sim
+373088944,1615259335,Vestido Lizie,Roupas > Vestidos > Festa,Roupas | Roupas > Vestidos | Roupas > Vestidos > Festa,PP,,0.4,25.0,35.0,2.0,sim,sim
+373088974,1615259407,Vestido Garage,Roupas > Vestidos,Roupas | Roupas > Vestidos,M,,0.3,20.0,25.0,2.0,sim,sim
+373089003,1615259481,Saia Ateen,Roupas > Saias,Roupas | Roupas > Saias,40,,0.3,25.0,30.0,2.0,sim,sim
+373089023,1615259538,Vestido Sori,Roupas > Vestidos > Festa,Roupas | Roupas > Vestidos | Roupas > Vestidos > Festa,42,,0.4,25.0,35.0,3.0,sim,sim
+373089052,1615259683,Short Garage Florido,(sem categoria),,P,,,,,,não,não
+373089075,1615259785,Casaco Zara,Roupas > Casacos,Roupas | Roupas > Casacos,PP,,0.6,30.0,25.0,4.0,sim,sim
+373089091,1615259851,Short Laranja Garage,(sem categoria),,M,,,,,,não,não
+373089105,1615259887,Blusa Lizie,(sem categoria),,M,,,,,,não,não
+373089128,1615259964,Blusa Lizie,(sem categoria),,M,,,,,,não,não
+373089159,1615260031,Blusa Forever 21,Roupas > Blusas,Roupas | Roupas > Blusas,M,,0.2,20.0,25.0,2.0,sim,sim
+373089187,1615260107,Vestido Babados Fernanda Chies,Roupas > Moda praia,Roupas | Roupas > Moda praia | Roupas > Vestidos,M,,0.3,25.0,35.0,2.0,sim,sim
+373089202,1615260150,Vestido Cavendish,Roupas > Vestidos > Festa,Roupas | Roupas > Vestidos | Roupas > Vestidos > Festa,38,,0.3,25.0,35.0,2.0,sim,sim
+373089218,1615260210,Vestido Lucidez,Roupas > Vestidos,Roupas | Roupas > Vestidos,P,,,,,,não,sim
+373089237,1615260238,Vestido de Festa Longuete Ave Maria,Roupas > Vestidos > Festa,Roupas | Roupas > Vestidos | Roupas > Vestidos > Festa,40,,0.5,25.0,35.0,3.0,sim,sim
+373089264,1615260307,Capodarte em Couro Novíssima,Acessórios > Bolsas,Acessórios | Acessórios > Bolsas,P,,1.2,30.0,22.0,12.0,sim,sim
+373089293,1615260376,Saia Maria Filó,Roupas > Saias,Roupas | Roupas > Saias,G,,0.35,25.0,30.0,2.0,sim,sim
+373089316,1615260421,Saia Social de Linho,Roupas > Saias,Roupas | Roupas > Saias | Roupas > linho,40,,0.3,30.0,25.0,2.0,sim,sim
+373089336,1615260452,Vestido Viés 21.,Roupas > Vestidos > Festa,Roupas | Roupas > Vestidos | Roupas > Vestidos > Festa,M,,0.4,25.0,30.0,2.0,sim,sim
+373089355,1615260477,Vestido Toten,Roupas > Vestidos > Festa,Roupas | Roupas > Vestidos | Roupas > Vestidos > Festa,M,,0.35,25.0,30.0,2.0,sim,sim
+373089385,1615260531,Vestido Chemise de Crepe Maria Filó,Roupas > Vestidos,Roupas | Roupas > Vestidos,M,,0.3,25.0,30.0,3.0,sim,sim
+373089426,1615260678,Blusa de Tricot Osklen,Roupas > Blusas,Roupas | Roupas > Blusas,M,,0.25,25.0,30.0,3.0,sim,sim
+373089479,1615260776,Calça Pantalona Botswana,Roupas > Calças,Roupas | Roupas > Calças,P,,0.3,20.0,25.0,2.0,sim,sim
+373089511,1615260862,Calça Legging Zara,Roupas > Calças,Roupas | Roupas > Calças | Roupas > Gym,,,0.3,20.0,25.0,2.0,sim,sim
+373089539,1618304037,Saia Jeans Zara,(sem categoria),,G,,,,,,não,sim
+373089556,1615260989,Saia Viver Bem,Roupas > Saias,Roupas | Roupas > Saias,M,,0.25,25.0,30.0,2.0,sim,sim
+373089577,1615261019,Casaquinho de Tricot,Roupas > Blusas,Roupas | Roupas > Blusas | Roupas > Casacos,ÚNICO,,0.3,25.0,30.0,3.0,sim,sim
+373089595,1615261057,Saia Listras Renner Novíssima,Roupas > Saias,Roupas | Roupas > Saias,42,,0.2,25.0,30.0,2.0,sim,sim
+373089608,1615261118,Camisetinha Seda Le Lis Blanc,Roupas > Shorts,Roupas | Roupas > Shorts | Roupas > Blusas,M,,0.12,20.0,25.0,2.0,sim,sim
+373089632,1618306509,Calça Jeans Reserva,Roupas > Calças,Roupas | Roupas > Calças | Roupas > Jeans,40,,0.5,25.0,35.0,3.0,sim,sim
+373089661,1618302713,Calça Zara,Roupas > Calças,Roupas | Roupas > Calças,P,,0.5,25.0,30.0,2.0,sim,sim
+373089693,1615261376,Calça Jeans MOB,Roupas > Calças,Roupas | Roupas > Calças | Roupas > Jeans,42,,0.5,25.0,35.0,3.0,sim,sim
+373089723,1615261430,Calça Renner Bag,Roupas > Calças,Roupas | Roupas > Calças | Roupas > Jeans,42,,0.5,25.0,30.0,3.0,sim,sim
+373089748,1615261470,Saia Maria Filó,Roupas > Saias,Roupas | Roupas > Saias,M,,0.3,25.0,30.0,2.0,sim,sim
+373089781,1615261507,Vestido Toten,Roupas > Vestidos > Festa,Roupas | Roupas > Vestidos | Roupas > Vestidos > Festa,ÚNICO,,0.4,25.0,30.0,2.0,sim,sim
+373089801,1615261546,Saia de Seda The Clothes,(sem categoria),,G,,,,,,não,sim
+373089826,1615261587,Blusa Malha Zinzane,Roupas > Saias,Roupas | Roupas > Saias | Roupas > Jeans,M,,0.25,20.0,25.0,2.0,sim,sim
+373089869,1615261638,Blusa Enjoy Transpassada,Roupas > Blusas,Roupas | Roupas > Blusas,G,,0.25,25.0,30.0,2.0,sim,sim
+373089912,1615261743,Macacão Novíssimo A Brand,Roupas > Macacào,Roupas | Roupas > Macacào,M,,0.45,25.0,35.0,3.0,sim,sim
+373089946,1615261788,Parka Jeans Le Lis Blanc,Roupas > Jeans,Roupas | Roupas > Jeans | Roupas > Casacos,M,,0.8,30.0,40.0,5.0,sim,sim
+373089987,1615261899,Jaqueta Jeans Ateen,Roupas > Jeans,Roupas | Roupas > Jeans | Roupas > Casacos,38,,0.5,25.0,30.0,3.0,sim,sim
+373090020,1615261993,Saia Cortelle,Roupas > Saias,Roupas | Roupas > Saias,P,,0.3,25.0,30.0,2.0,sim,sim
+373090051,1615262063,Jaqueta Maria Filó,Roupas > Casacos,Roupas | Roupas > Casacos,M,,0.5,25.0,30.0,4.0,sim,sim
+373090085,1615262131,Saia de Malha Sacada,Roupas > Saias,Roupas | Roupas > Saias,M,,0.3,25.0,30.0,2.0,sim,sim
+373090113,1615262173,Vestido Shamois Sacada,Roupas > Vestidos,Roupas | Roupas > Vestidos,M,,0.3,25.0,30.0,2.0,sim,sim
+373090166,1615262291,Calça Estampada Maria Filó,Roupas > Calças,Roupas | Roupas > Calças,G,,,,,,não,sim
+373090198,1618301533,Vestido Desigual,Roupas > Moda praia,Roupas | Roupas > Moda praia | Roupas > Vestidos,46,,0.3,25.0,35.0,2.0,sim,sim
+373090229,1615262437,Vestido Gio,Roupas > Moda praia,Roupas | Roupas > Moda praia | Roupas > Vestidos,M,,0.3,25.0,30.0,2.0,sim,sim
+373090266,1615262508,Blazer Crepe Zara,Roupas > Blazers,Roupas | Roupas > Blazers,G,,0.5,25.0,30.0,3.0,sim,sim
+373090290,1615262569,Vestido Crepe com Babados All Is Love,Roupas > Vestidos > Festa,Roupas | Roupas > Vestidos | Roupas > Vestidos > Festa,M,,0.3,25.0,35.0,2.0,sim,sim
+373090319,1615262621,Blusa Renda Animale,Roupas > Blusas,Roupas | Roupas > Blusas,38,,0.25,25.0,30.0,2.0,sim,sim
+373090343,1615262693,Vestido Serinah,Roupas > Vestidos > Festa,Roupas | Roupas > Vestidos | Roupas > Vestidos > Festa,G,,0.4,25.0,35.0,2.0,sim,sim
+373090375,1615262766,Calça Pantalona Nice Club,Roupas > Calças,Roupas | Roupas > Calças,G,,0.3,25.0,30.0,2.0,sim,sim
+373090408,1615262824,Vestido Cargo,Roupas > Vestidos,Roupas | Roupas > Vestidos,M,,0.4,25.0,30.0,2.0,sim,sim
+373090452,1615262883,Terno Crepe Animale,Roupas > Blazers,Roupas | Roupas > Blazers,40,,1.2,30.0,40.0,4.0,sim,sim
+375831428,1623838675,Bolsa de mão Capodarte,Acessórios > Bolsas,Acessórios | Acessórios > Bolsas,,,0.6,30.0,20.0,10.0,sim,sim
+376569142,1625967793,Vestido Amanda Trancoso Verde Limão,Roupas > Vestidos,Roupas | Roupas > Vestidos,M,,,,,,não,sim
+376569159,1625967832,Vestido Fabulous Agilità,Roupas > Vestidos > Festa,Roupas | Roupas > Vestidos | Roupas > Vestidos > Festa,P,,,,,,não,sim
+376569174,1625967878,Vestido Farm,Roupas > Vestidos,Roupas | Roupas > Vestidos,M,,,,,,não,sim
+376569185,1625967912,Vestido Farm Coral,Roupas > Vestidos,Roupas | Roupas > Vestidos,G,,,,,,não,sim
+376569224,1625968013,Vestido Patbo,Roupas > Vestidos > Festa,Roupas | Roupas > Vestidos | Roupas > Vestidos > Festa,P,,,,,,não,sim
+376808761,1626732569,Babydoll Victoria’s Secret Bojo 34c (bojo Bra),(sem categoria),,42,,,,,,não,não
+376808849,1626732735,Babydoll Jogê Bojo,(sem categoria),,42,,,,,,não,não
+376808903,1626732844,Babydoll Victoria’s Secret S ( Bra),(sem categoria),,P,,,,,,não,não
+376809006,1626733030,Babydoll Victoria’s Secret S ( ),(sem categoria),,P,,,,,,não,não
+376809085,1626733205,Babydoll Victoria’s Secret S ( ),(sem categoria),,P,,,,,,não,não
+376809143,1626733361,Babydoll Victoria’s Secret S ( ),(sem categoria),,P,,,,,,não,não
+376809209,1626733517,Babydoll Victoria’s Secret S ( ),(sem categoria),,P,,,,,,não,não
+376809285,1626733677,Babydoll Victoria’s Secret,(sem categoria),,M,,,,,,não,não
+376809360,1626733824,Short Farm,Roupas > Moda praia,Roupas | Roupas > Moda praia | Roupas > Shorts,44,,0.2,20.0,25.0,2.0,sim,sim

@@ -8,11 +8,21 @@ Só publica linhas onde a coluna "status" está como "ok".
 Para cada linha:
     - Cria o produto (nome + descrição)
     - Cria a variação de tamanho, com o valor informado e estoque = 1
+      (sem tamanho na planilha, a variação é criada como "ÚNICO")
     - Envia as imagens na mesma ordem em que foram baixadas do post
     - Associa o campo personalizado "dona_do_item" com "CÓDIGO - Nome"
+    - Preenche categoria, marca, tags, título SEO, descrição SEO e URL do produto
+    - Preenche peso e dimensões da variação (colunas peso_kg, largura_cm, altura_cm e profundidade_cm)
+      (colunas categoria, marca, tags, titulo_seo, descricao_seo e url_produto do CSV)
+
+Sobre a categoria: o script só usa categorias que JÁ EXISTEM na loja. Ele lê a
+lista da Nuvemshop, converte o nome da coluna "categoria" no ID correspondente e
+NUNCA cria uma categoria nova. Se o nome não bater com nenhuma categoria da loja,
+o produto é criado sem categoria e o script avisa.
 
 Requisitos:
     pip install requests
+    (e o arquivo categorias_nuvemshop.py na mesma pasta)
 
 Credenciais (obrigatório, via variáveis de ambiente):
     export NUVEMSHOP_STORE_ID="seu_user_id_da_loja"
@@ -33,6 +43,7 @@ Uso:
 import argparse
 import base64
 import csv
+import html
 import os
 import re
 import sys
@@ -41,8 +52,11 @@ from pathlib import Path
 
 import requests
 
+from categorias_nuvemshop import listar_categorias, resolver_categoria
+
 API_BASE_TEMPLATE = "https://api.tiendanube.com/2025-03/{store_id}"
 CAMPO_DONA_NOME = "dona_do_item"
+TAMANHO_PADRAO = "ÚNICO"  # usado quando a linha não tem tamanho
 
 
 def get_headers(access_token: str) -> dict:
@@ -96,18 +110,26 @@ def garantir_campo_dona(base_url: str, headers: dict) -> tuple[str, dict]:
     return campo["id"], mapa_codigo_valor
 
 
+def descricao_para_html(texto: str) -> str:
+    """Parágrafos separados por linha em branco viram <p>; quebra simples vira <br>. Escapa caracteres especiais."""
+    texto = (texto or "").replace("\r\n", "\n")
+    blocos = [b.strip() for b in re.split(r"\n\s*\n", texto) if b.strip()]
+    return "".join(f"<p>{html.escape(b, quote=False).replace(chr(10), '<br>')}</p>" for b in blocos)
+
+
 def criar_produto(base_url: str, headers: dict, titulo: str, descricao: str, tamanho: str, valor: float) -> dict:
+    tamanho = (tamanho or "").strip() or TAMANHO_PADRAO  # sem tamanho: cria a variação "ÚNICO"
     payload = {
         "name": {"pt": titulo},
-        "description": {"pt": f"<p>{descricao}</p>"},
-        "attributes": [{"pt": "Tamanho"}] if tamanho else [],
+        "description": {"pt": descricao_para_html(descricao)},
+        "attributes": [{"pt": "Tamanho"}],
         "visibility": "hidden",  # cria como rascunho: não aparece na loja nem é acessível pela URL até você revisar e publicar manualmente
         "variants": [
             {
                 "price": valor,
                 "stock_management": True,
                 "stock": 1,
-                "values": [{"pt": tamanho}] if tamanho else [],
+                "values": [{"pt": tamanho}],
             }
         ],
     }
@@ -116,6 +138,121 @@ def criar_produto(base_url: str, headers: dict, titulo: str, descricao: str, tam
         print(f"    ERRO ao criar produto: {resp.status_code} {resp.text}")
         resp.raise_for_status()
     return resp.json()
+
+
+def _tentar_put(base_url: str, headers: dict, product_id: int, payload: dict) -> tuple[bool, str]:
+    resp = requests.put(f"{base_url}/products/{product_id}", headers=headers, json=payload, timeout=30)
+    if resp.ok:
+        return True, ""
+    return False, f"{resp.status_code} {resp.text[:300]}"
+
+
+def enriquecer_produto(base_url: str, headers: dict, product_id: int, linha: dict, categoria_id) -> list[str]:
+    """
+    Preenche categoria, marca, tags, SEO e URL do produto já criado.
+
+    Primeiro tenta enviar tudo de uma vez. Se a Nuvemshop recusar, tenta campo a campo,
+    testando formatos alternativos (por exemplo, tags como texto ou como lista), e informa
+    exatamente qual campo falhou e por quê. O produto já existe, então nada aqui o impede.
+    Retorna a lista de campos que não foi possível preencher.
+    """
+    marca = (linha.get("marca") or "").strip()
+    tags = (linha.get("tags") or "").strip()
+    titulo_seo = (linha.get("titulo_seo") or "").strip()
+    descricao_seo = (linha.get("descricao_seo") or "").strip()
+    slug = (linha.get("url_produto") or "").strip()
+
+    # para cada campo: formatos candidatos, do mais provável ao alternativo
+    campos: dict[str, list] = {}
+    if marca:
+        campos["brand"] = [marca]
+    if tags:
+        campos["tags"] = [tags, [t.strip() for t in tags.split(",") if t.strip()]]
+    if titulo_seo:
+        campos["seo_title"] = [titulo_seo]
+    if descricao_seo:
+        campos["seo_description"] = [descricao_seo]
+    if slug:
+        # 2ª opção acrescenta o id do produto, caso a URL já exista em outro produto
+        campos["handle"] = [{"pt": slug}, {"pt": f"{slug}-{product_id}"}, slug]
+    if categoria_id:
+        campos["categories"] = [[categoria_id]]
+
+    if not campos:
+        return []
+
+    ok, erro = _tentar_put(base_url, headers, product_id, {k: v[0] for k, v in campos.items()})
+    if ok:
+        print(f"    campos de busca/SEO/categoria preenchidos: {', '.join(campos)}")
+        return []
+
+    print(f"    aviso: envio em bloco recusado ({erro}). Tentando campo a campo...")
+    falhas = []
+    for campo, opcoes in campos.items():
+        time.sleep(0.6)
+        erro_campo = ""
+        for valor in opcoes:
+            ok, erro_campo = _tentar_put(base_url, headers, product_id, {campo: valor})
+            if ok:
+                break
+            time.sleep(0.4)
+        if ok:
+            print(f"      {campo}: ok")
+        else:
+            print(f"      ERRO no campo '{campo}': {erro_campo}")
+            falhas.append(campo)
+    return falhas
+
+
+def _num_csv(valor):
+    try:
+        n = float(str(valor or "").replace(",", "."))
+    except ValueError:
+        return None
+    return n if n > 0 else None
+
+
+def preencher_dimensoes(base_url: str, headers: dict, produto: dict, linha: dict) -> list[str]:
+    """
+    Preenche peso (kg) e largura, altura e profundidade (cm) da variação, com os valores das colunas
+    peso_kg, largura_cm, altura_cm e profundidade_cm do CSV. Tenta enviar como texto ("0.30") e, se a
+    Nuvemshop recusar, como número. Colunas vazias são ignoradas. Retorna ["dimensoes"] se falhar.
+    """
+    medidas = {
+        "weight": _num_csv(linha.get("peso_kg")),
+        "width": _num_csv(linha.get("largura_cm")),
+        "height": _num_csv(linha.get("altura_cm")),
+        "depth": _num_csv(linha.get("profundidade_cm")),
+    }
+    medidas = {k: v for k, v in medidas.items() if v}
+    if not medidas:
+        print("    aviso: linha sem peso/dimensões; a variação ficará sem medidas.")
+        return []
+
+    variantes = produto.get("variants") or []
+    if not variantes:
+        print("    aviso: a resposta da Nuvemshop não trouxe a variação; não consegui preencher as medidas.")
+        return ["dimensoes"]
+
+    falhou = False
+    for v in variantes:
+        url = f"{base_url}/products/{produto['id']}/variants/{v['id']}"
+        ok, erro = False, ""
+        for formato in (lambda x: f"{x:.2f}", lambda x: x):
+            resp = requests.put(url, headers=headers, json={k: formato(val) for k, val in medidas.items()}, timeout=30)
+            if resp.ok:
+                ok = True
+                break
+            erro = f"{resp.status_code} {resp.text[:300]}"
+            time.sleep(0.4)
+        if ok:
+            resumo = ", ".join(f"{k}={val}" for k, val in medidas.items())
+            print(f"    medidas da variação {v['id']} preenchidas: {resumo}")
+        else:
+            print(f"    ERRO ao preencher as medidas da variação {v['id']}: {erro}")
+            falhou = True
+        time.sleep(0.4)
+    return ["dimensoes"] if falhou else []
 
 
 def enviar_imagens(base_url: str, headers: dict, product_id: int, post_folder: Path, nomes_imagens: list[str]):
@@ -181,6 +318,14 @@ def main():
 
     campo_dona_id, mapa_codigo_valor = garantir_campo_dona(base_url, headers)
 
+    # Categorias que já existem na loja (somente leitura: este script nunca cria categoria)
+    try:
+        categorias = listar_categorias(base_url, headers)
+        print(f"{len(categorias)} categorias existentes na loja carregadas.")
+    except Exception as e:
+        categorias = []
+        print(f"aviso: não consegui ler as categorias da loja ({e}). Os produtos serão criados SEM categoria.")
+
     with planilha.open(encoding="utf-8-sig") as f:
         linhas = list(csv.DictReader(f))
 
@@ -214,7 +359,29 @@ def main():
             enviar_imagens(base_url, headers, product_id, post_folder, nomes_imagens)
             associar_dona(base_url, headers, product_id, campo_dona_id, mapa_codigo_valor, linha["codigo_dona"], linha["nome_dona"])
 
-            resultados.append({**linha, "resultado": "ok", "product_id": product_id})
+            # Categoria: só converte o nome em ID de uma categoria que já existe
+            nome_categoria = (linha.get("categoria") or "").strip()
+            categoria_id = None
+            if nome_categoria:
+                categoria_id = resolver_categoria(nome_categoria, categorias)
+                if categoria_id is None:
+                    print(f"    aviso: a categoria '{nome_categoria}' não existe na loja (ou é ambígua); produto ficará SEM categoria.")
+                    if categorias:
+                        exemplos = ", ".join(c["caminho"] for c in categorias[:15])
+                        print(f"           categorias existentes: {exemplos}{' ...' if len(categorias) > 15 else ''}")
+            else:
+                print("    aviso: linha sem categoria; produto ficará sem categoria.")
+
+            falhas = enriquecer_produto(base_url, headers, product_id, linha, categoria_id)
+            falhas += preencher_dimensoes(base_url, headers, produto, linha)
+
+            resultados.append({
+                **linha,
+                "resultado": "ok",
+                "product_id": product_id,
+                "categoria_id": categoria_id or "",
+                "campos_com_erro": ";".join(falhas),
+            })
         except Exception as e:
             print(f"    ERRO ao publicar '{titulo}': {e}")
             resultados.append({**linha, "resultado": f"erro: {e}"})
@@ -224,15 +391,23 @@ def main():
     # salva um log do que foi feito
     log_path = planilha.with_name("resultados_publicacao.csv")
     if resultados:
+        # união dos nomes de coluna, pois linhas com erro têm menos colunas que as publicadas
+        campos = []
+        for r in resultados:
+            for k in r.keys():
+                if k not in campos:
+                    campos.append(k)
         with log_path.open("w", newline="", encoding="utf-8-sig") as f:
-            campos = list(resultados[0].keys())
-            writer = csv.DictWriter(f, fieldnames=campos)
+            writer = csv.DictWriter(f, fieldnames=campos, restval="")
             writer.writeheader()
             writer.writerows(resultados)
         print(f"\nLog salvo em '{log_path}'.")
 
     ok_count = sum(1 for r in resultados if r.get("resultado") == "ok")
     print(f"\nConcluído: {ok_count} produtos publicados com sucesso, {len(resultados) - ok_count} com erro.")
+    com_falha = [r for r in resultados if r.get("campos_com_erro")]
+    if com_falha:
+        print(f"ATENÇÃO: {len(com_falha)} produto(s) com campos de busca/SEO não preenchidos (veja a coluna 'campos_com_erro' do log).")
     if ok_count:
         print("\nATENÇÃO: os produtos foram criados como OCULTOS (rascunho) — não aparecem na loja ainda.")
         print("Revise cada um no painel da Nuvemshop e mude a visibilidade para 'Visível' quando estiver pronto para publicar.")
