@@ -183,6 +183,8 @@ CLIENTES = {
     "SCF": "Simone Coelho Fernandes",
     "FRM": "Fernanda Raphael Malta",
     "LR": "Lenise RIcha",
+    "TLR": "Tabata Rocha",
+    "AO": "Alessandra Oliva"
 }
 
 STOPWORDS_TITULO = {"de", "da", "do", "das", "dos", "e", "em", "com", "para", "por", "a", "o"}
