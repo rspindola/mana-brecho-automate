@@ -348,7 +348,15 @@ def main():
             resultados.append({**linha, "resultado": "erro_valor_invalido"})
             continue
 
-        post_folder = origem / linha["post_folder"]
+        # Procura a pasta do post em <origem>/ e, se não achar, em <origem>/processados/
+        _nome_pasta = linha["post_folder"]
+        post_folder = origem / _nome_pasta
+        if not post_folder.exists():
+            _alternativa = origem / "processados" / _nome_pasta
+            if _alternativa.exists():
+                post_folder = _alternativa
+            else:
+                print(f"    aviso: pasta '{_nome_pasta}' não encontrada em '{origem}' nem em '{origem / 'processados'}' — imagens serão puladas.")
         nomes_imagens = [n for n in linha["imagens"].split(";") if n]
 
         try:

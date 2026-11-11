@@ -18,6 +18,53 @@ from pathlib import Path
 CAMPOS = ["peso_kg", "largura_cm", "altura_cm", "profundidade_cm"]
 
 
+# ============================================================
+# Funções usadas pelo preparar_publicacao.py
+# ============================================================
+
+def carregar_tabela(caminho: str = "dimensoes_padrao.csv") -> dict:
+    """Carrega o CSV de dimensões padrão em um dicionário {categoria: {campo: valor}}."""
+    tabela = {}
+    p = Path(caminho)
+    if not p.exists():
+        return tabela
+    with p.open(encoding="utf-8-sig") as f:
+        for row in csv.DictReader(f):
+            cat = (row.get("categoria") or "").strip()
+            if not cat:
+                continue
+            tabela[cat] = {c: row.get(c, "") for c in CAMPOS}
+    return tabela
+
+
+def buscar_dimensoes(categoria: str, tabela: dict) -> tuple[dict, str]:
+    """Retorna (dimensoes, categoria_usada).
+
+    Tenta primeiro a categoria exata, depois a categoria-mãe (tudo antes do
+    último ' > '), subindo até encontrar ou esgotar os níveis.
+    """
+    cat = categoria.strip()
+    while cat:
+        if cat in tabela:
+            dims = tabela[cat]
+            # Considera "encontrado" só se ao menos um campo estiver preenchido
+            if any(dims.get(c) for c in CAMPOS):
+                return dims, cat
+        # Sobe um nível: "Roupas > Vestidos > Festa" → "Roupas > Vestidos"
+        partes = cat.rsplit(" > ", 1)
+        if len(partes) == 1:
+            break
+        cat = partes[0]
+    return {}, ""
+
+
+def usou_categoria_mae(categoria_original: str, categoria_usada: str) -> bool:
+    """Retorna True quando as dimensões vieram de uma categoria-mãe (não da exata)."""
+    return bool(categoria_usada) and categoria_usada != categoria_original.strip()
+
+
+# ============================================================
+
 def main():
     parser = argparse.ArgumentParser(description="Gera a tabela de medidas padrão por categoria.")
     parser.add_argument("--medias", default="medias_dimensoes.csv")

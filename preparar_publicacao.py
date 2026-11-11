@@ -33,6 +33,7 @@ import base64
 import csv
 import os
 import re
+import shutil
 import time
 import unicodedata
 from pathlib import Path
@@ -151,6 +152,7 @@ CLIENTES = {
     "MA": "Mônica Antonini",
     "MANA": "Danny e Bebby",
     "MAPR": "Maria Angélica",
+    "MD": "Mara Duarte",
     "MM": "Marcia Monteiro",
     "ND": "Nathália David",
     "NS": "Natalina Souza",
@@ -261,6 +263,17 @@ def parse_legenda(texto: str) -> dict:
         if chave in CLIENTES:
             codigo = chave
             spans_remover.append(m.span())
+
+    # Fallback: se não encontrou código entre parênteses, procura um token em
+    # CAPS de 1 a 4 letras no FINAL da string (sem parênteses) que bata com
+    # um código cadastrado em CLIENTES.
+    if not codigo:
+        m = re.search(r"\b([A-Z]{1,4})\s*$", flat)
+        if m:
+            chave = m.group(1).strip().upper()
+            if chave in CLIENTES:
+                codigo = chave
+                spans_remover.append(m.span())
 
     # --- 2. Valor: se achamos um código, primeiro tenta achar um preço
     #        "colado" logo antes do parêntese do código (padrão mais comum:
@@ -719,6 +732,7 @@ def main():
     parser = argparse.ArgumentParser(description="Prepara posts do Instagram para publicação na Nuvemshop.")
     parser.add_argument("--origem", default="downloads", help="Pasta com os posts baixados (padrão: downloads)")
     parser.add_argument("--saida", default="publicacoes.csv", help="Arquivo CSV de saída (padrão: publicacoes.csv)")
+    parser.add_argument("--processados", default="", help="Pasta de destino dos posts processados (padrão: <origem>/processados). Use --processados='' para NÃO mover.")
     parser.add_argument("--com-fotos", action="store_true", help="Envia também as fotos para a IA (mais fiel à peça, porém bem mais lento)")
     parser.add_argument("--limite", type=int, default=0, help="Processa só os N primeiros posts (útil para testar)")
     parser.add_argument("--dimensoes", default="dimensoes_padrao.csv", help="Tabela de peso e dimensões padrão por categoria")
@@ -746,6 +760,19 @@ def main():
     if not origem.exists():
         print(f"ERRO: pasta '{origem}' não encontrada.")
         return
+
+    # Pasta de destino dos posts processados
+    # Padrão: <origem>/processados  |  "" desativa a movimentação
+    if args.processados == "":
+        pasta_processados = origem / "processados"
+    elif args.processados.lower() in ("nao", "não", "none", "off", "false"):
+        pasta_processados = None
+    else:
+        pasta_processados = Path(args.processados)
+
+    if pasta_processados:
+        pasta_processados.mkdir(parents=True, exist_ok=True)
+        print(f"Posts processados serão movidos para '{pasta_processados}'.")
 
     gemini_key = os.environ.get("GEMINI_API_KEY")
     anthropic_key = os.environ.get("ANTHROPIC_API_KEY")
@@ -885,6 +912,15 @@ def main():
                     "legenda_original": item["legenda_raw"].replace("\n", " | "),
                 }
             )
+
+            # Move a pasta para processados (evita reprocessar na próxima rodada)
+            if pasta_processados:
+                destino = pasta_processados / post_folder.name
+                try:
+                    shutil.move(str(post_folder), str(destino))
+                    print(f"      movido para '{pasta_processados.name}/'", flush=True)
+                except Exception as e:
+                    print(f"      aviso: não consegui mover a pasta ({e})", flush=True)
 
     except KeyboardInterrupt:
         print("\nInterrompido (Ctrl+C). Salvando os posts já processados...")
